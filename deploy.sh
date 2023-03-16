@@ -3,7 +3,7 @@
  # @Author: xianjiajie
  # @Date: 2023-03-15 17:37:38
  # @LastEditors: xianjiajie
- # @LastEditTime: 2023-03-16 15:01:32
+ # @LastEditTime: 2023-03-16 15:23:04
  # @Description: 
 ### 
 
@@ -13,7 +13,12 @@ set -e
 # 生成静态文件
 npm run docs:build
 
+git push -f git@github.com:Aeroxian/Aeroxian_Blog.git master:master
+git init
+git add -A
+git commit -m '更新文档'
 # 进入生成的文件夹
+cd docs/.vuepress/dist
 
 git init
 git add -A
