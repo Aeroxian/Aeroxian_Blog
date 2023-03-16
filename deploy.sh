@@ -1,11 +1,4 @@
 #!/usr/bin/env sh
-###
- # @Author: xianjiajie
- # @Date: 2023-03-15 17:37:38
- # @LastEditors: xianjiajie
- # @LastEditTime: 2023-03-16 15:32:22
- # @Description: 
-### 
 
 # 确保脚本抛出遇到的错误
 set -e
