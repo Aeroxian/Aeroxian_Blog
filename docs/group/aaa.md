@@ -1,7 +1,9 @@
 ---
-lang: zh-CN
-title: 页面的标题
-description: 页面的描述
+title: 条件类型
+author: 冴羽
+date: '2021-12-12'
 ---
 
-#### 123
+## 123111
+<test-1 text="sd"></test-1>
+<Badge text="演示"/>
