@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           # 选择要使用的 node 版本
-          node-version: "14.17.6"
+          node-version: "18.15.0"
 
       # 缓存 node_modules
       - name: Cache dependencies
@@ -36,7 +36,7 @@ jobs:
       # 如果缓存没有命中，安装依赖
       - name: Install dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn --frozen-lockfile
+        run: npm ci
         # run: yarn install
 
       # 运行构建脚本
