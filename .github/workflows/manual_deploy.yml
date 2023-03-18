@@ -1,9 +1,6 @@
 name: docs
 
 on:
-  # 每当 push 到 main 分支时触发部署
-  push:
-    branches: [gh-pages]
   # 手动触发部署
   workflow_dispatch:
 
@@ -40,8 +37,8 @@ jobs:
       #   run: yarn --frozen-lockfile
 
       # 运行构建脚本
-      # - name: Build VuePress site
-      #   run: npm run docs:build
+      - name: Build VuePress site
+        run: npm run docs:build
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
