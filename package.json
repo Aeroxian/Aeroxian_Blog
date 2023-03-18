@@ -6,10 +6,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Aeroxian/Aeroxian.github.io.git"
-  },
+  "repository": "git+https://github.com/Aeroxian/Aeroxian.github.io.git",
   "author": "Aeroxian",
   "license": "ISC",
   "bugs": {
@@ -20,9 +17,10 @@
     "directory-tree": "^3.0.1"
   },
   "devDependencies": {
-    "@vuepress/plugin-docsearch": "^2.0.0-beta.45",
-    "@vuepress/plugin-google-analytics": "^2.0.0-beta.45",
-    "@vuepress/plugin-register-components": "^2.0.0-beta.45",
-    "vuepress": "^2.0.0-beta.45"
-  }
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.27",
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.27",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.27",
+    "vuepress": "^2.0.0-beta.27"
+  },
+  "main": "index.js"
 }
