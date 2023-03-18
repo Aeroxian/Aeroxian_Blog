@@ -1,3 +1,10 @@
+<!--
+ * @Author: xianjiajie
+ * @Date: 2023-03-18 18:28:45
+ * @LastEditors: xianjiajie
+ * @LastEditTime: 2023-03-18 20:26:05
+ * @Description: 
+-->
 ---
 sidebarDepth: 3
 sidebar: auto
@@ -13,7 +20,6 @@ typora-root-url: ..\.vuepress\public
 
 ::: tip Wechat
 
-![202111281254434](/images/aboutme/202111281254434.jpg)
 
 
 
@@ -23,7 +29,6 @@ typora-root-url: ..\.vuepress\public
 
 ::: tip QQ
 
-![202111281116010](/images/aboutme/202111281116010.jpg)
 
 :::
 

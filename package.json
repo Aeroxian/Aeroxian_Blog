@@ -1,6 +1,7 @@
 {
   "name": "blog_aeroxian",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
@@ -8,7 +9,6 @@
   },
   "repository": "git+https://github.com/Aeroxian/Aeroxian.github.io.git",
   "author": "Aeroxian",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Aeroxian/Aeroxian.github.io/issues"
   },
