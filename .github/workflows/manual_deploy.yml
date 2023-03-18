@@ -60,7 +60,7 @@ jobs:
           dst: "gitee/aeroxian"
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
-          static_list: "Aeroxian_Blog"
+          static_list: "Aeroxian/Aeroxian_Blog"
           force_update: true
 
       - name: Build Gitee Pages
