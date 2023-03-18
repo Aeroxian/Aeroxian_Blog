@@ -58,22 +58,22 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_PAT: ${{ secrets.ACCESS_TOKEN }}
 
-      - name: Mirror the Github organization repos to Gitee.
-        uses: Yikun/hub-mirror-action@master
-        with:
-          src: "github/Aeroxian"
-          dst: "gitee/aeroxian"
-          dst_key: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
-          dst_token: ${{ secrets.GITEE_TOKEN }}
-          static_list: "Aeroxian_Blog"
-          force_update: true
-      # - name: Sync to Gitee
-      #   uses: wearerequired/git-mirror-action@master
-      #   env:
-      #       SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+      # - name: Mirror the Github organization repos to Gitee.
+      #   uses: Yikun/hub-mirror-action@master
       #   with:
-      #       source-repo: git@github.com:Aeroxian/Aeroxian_Blog.git
-      #       destination-repo: git@gitee.com:aeroxian/Aeroxian_Blog.git
+      #     src: "github/Aeroxian"
+      #     dst: "gitee/aeroxian"
+      #     dst_key: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+      #     dst_token: ${{ secrets.GITEE_TOKEN }}
+      #     static_list: "Aeroxian_Blog"
+      #     force_update: true
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@master
+        env:
+            SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+        with:
+            source-repo: git@github.com:Aeroxian/Aeroxian_Blog.git
+            destination-repo: git@gitee.com:aeroxian/Aeroxian_Blog.git
 
       - name: Build Gitee Pages
         uses: yanglbme/gitee-pages-action@main
