@@ -238,7 +238,7 @@ onMounted(() => {
 
 <template>
   <div class="item">
-        <font-awesome-icon icon="fa-brands fa-tiktok" class="icon"/>
+        <div icon="fa-brands fa-tiktok" class="icon"></div>
         <p class="counter" 
             data-target="23000"
             ref="tiktok"></p>   <!-- 名字要相同 -->
