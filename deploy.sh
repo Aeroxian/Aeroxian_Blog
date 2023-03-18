@@ -5,10 +5,10 @@ set -e
 
 # 生成静态文件
 npm run docs:build
-git init
-git add -A
-git commit -m '更新文档'
-git push -f git@github.com:Aeroxian/Aeroxian_Blog.git master:master
+# git init
+# git add -A
+# git commit -m '更新文档'
+# git push -f git@github.com:Aeroxian/Aeroxian_Blog.git master:master
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
@@ -19,5 +19,5 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:Aeroxian/Aeroxian_Blog.git master:gh-pages
-# git push -f git@gitee.com:mqyqingfeng/learn-typescript.git master:gh-pages
+git push -f git@gitee.com:Aeroxian/Aeroxian_Blog.git master:gh-pages
 cd -
