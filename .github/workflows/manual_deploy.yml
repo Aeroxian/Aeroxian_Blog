@@ -1,4 +1,4 @@
-name: docs
+name: manual_deploy
 
 on:
   # 手动触发部署
