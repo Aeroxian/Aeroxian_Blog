@@ -56,6 +56,7 @@ jobs:
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Mirror the Github organization repos to Gitee.
         uses: Yikun/hub-mirror-action@master
