@@ -9,6 +9,7 @@ npm run docs:build
 # git add -A
 # git commit -m '更新文档'
 # git push -f git@github.com:Aeroxian/Aeroxian_Blog.git master:master
+# git@gitee.com:aeroxian/Aeroxian_Blog.git
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
