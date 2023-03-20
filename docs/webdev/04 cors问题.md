@@ -33,7 +33,7 @@ Cross-Origin Resource Sharing。是浏览器的行为，出于安全原因，浏
 
 验证 1. cors问题的出现. 2.cors只发生在浏览器端
 
-[Source Code](https://github.com/Q10Viking/learncode/tree/main/node/08%20cors/01%20browser-action)
+
 
 :::
 
@@ -46,7 +46,7 @@ import express from "express";
 
 const app = express()
 app.get("/test",(req,res)=>{
-    res.json({name:'Q10Viking'})
+    res.json({name:'Aeroxian'})
 })
 
 app.listen(9000,()=>{
@@ -109,7 +109,6 @@ has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is pres
 
 ## 解决跨域(Simple Request)❤️
 
-[Source Code](https://github.com/Q10Viking/learncode/tree/main/node/08%20cors/01%20browser-action-solved)
 
 上面的请求资源是一个简单请求(Simple Request).对应的还有预检请求(Preflight request),如自己添加了HTTP header头部信息.
 
@@ -135,7 +134,7 @@ app.get("/test",(req,res)=>{
     console.log("get req");
     // add Access-Control-Allow-Origin header
     res.setHeader("Access-Control-Allow-Origin","*")
-    res.json({name:'Q10Viking'})
+    res.json({name:'Aeroxian'})
 })
 
 app.listen(9000,()=>{
@@ -172,7 +171,6 @@ It is an [`OPTIONS`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/O
 
 通过自定义头部信息，来发送跨域请求，观察preflight request
 
-[Source Code](https://github.com/Q10Viking/learncode/tree/main/node/08%20cors/02%20browser-preflight-request-problem)
 
 :::
 
@@ -187,7 +185,7 @@ import express from "express";
 const app = express()
 app.get("/test",(req,res)=>{
     console.log("get req");
-    res.json({name:'Q10Viking'})
+    res.json({name:'Aeroxian'})
 })
 
 // 添加一个options方法，来观察
@@ -211,7 +209,7 @@ const nameEl = document.getElementById("name")
 // 自定义了一个header
 const config = {
     headers: {
-        'auth-token': 'q10viking-token'
+        'auth-token': 'aeroxian-token'
     }
 }
 
@@ -247,7 +245,7 @@ has been blocked by CORS policy: Response to preflight request doesn\'t pass acc
 
 ### 解决跨域
 
-[Source Code](https://github.com/Q10Viking/learncode/tree/main/node/08%20cors/02%20browser-preflight-request-solved)
+
 
 > 只需要更改服务端的预检请求即可。app.js
 
@@ -257,7 +255,7 @@ import express from "express";
 const app = express()
 app.get("/test",(req,res)=>{
     console.log("get req");
-    res.json({name:'Q10Viking'})
+    res.json({name:'Aeroxian'})
 })
 
 // 添加一个options方法，来观察
@@ -307,7 +305,7 @@ app.use(cors())
 
 app.get("/test",(req,res)=>{
     console.log("get req");
-    res.json({name:'Q10Viking'})
+    res.json({name:'Aeroxian'})
 })
 
 app.listen(9000,()=>{
@@ -323,7 +321,7 @@ import express from "express";
 const app = express()
 app.get("/test",(req,res)=>{
     console.log("get req");
-    res.json({name:'Q10Viking'})
+    res.json({name:'Aeroxian'})
 })
 
 // 添加一个options方法，来观察

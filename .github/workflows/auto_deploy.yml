@@ -74,7 +74,7 @@ jobs:
         env:
             SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
         with:
-            source-repo: git@github.com:Aeroxian/Aeroxian_Blog.git
+            source-repo: git@github.com:Aeroxian/aeroxian.github.io.git
             destination-repo: git@gitee.com:aeroxian/Aeroxian_Blog.git
 
       - name: Build Gitee Pages

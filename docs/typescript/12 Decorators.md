@@ -27,7 +27,7 @@ function Logging(constructor: Function) {
 // decorator会在类定义的地方执行
 @Logging
 class Person {
-  constructor(private name: string = "静默") {}
+  constructor(private name: string = "Aeroxian") {}
 }
 ```
 
@@ -52,7 +52,7 @@ function Logging(logString:string) {
 // decorator会在类定义的地方执行
 @Logging("LOGGING - Person")
 class Person {
-  constructor(private name: string = "静默") {}
+  constructor(private name: string = "Aeroxian") {}
 }
 ```
 
@@ -84,7 +84,7 @@ function withTemplate(template: string, hookId: string) {
 // decorator会在类定义的地方执行
 @withTemplate("<h1>Hello TypeScript</h1>", "app")
 class Person {
-  constructor(public name: string = "静默") {}
+  constructor(public name: string = "Aeroxian") {}
 }
 ```
 
@@ -243,7 +243,7 @@ function withTemplate(template: string, hookId: string) {
 // decorator会在类定义的地方执行
 @withTemplate("<h1>Hello TypeScript</h1>", "app")
 class Person {
-  constructor(public name: string = "静默") {}
+  constructor(public name: string = "Aeroxian") {}
 }
 
 // step 3只会在实例化的时候才执行

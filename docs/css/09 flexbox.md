@@ -55,11 +55,11 @@ The modern way to change the way our elements are displayed
 
 ## Notes App 案例
 
-[项目预览（Project view）](https://q10viking.github.io/Mini-FrontEnd-project/12%20Notes%20App/)
+[项目预览（Project view）](https://aeroxian.github.io/Mini-FrontEnd-project/12%20Notes%20App/)
 
-[相关笔记](https://q10viking.github.io/minifrontendproject/08%20Notes%20App.html)
+[相关笔记](https://aeroxian.github.io/minifrontendproject/08%20Notes%20App.html)
 
-<common-progresson-snippet src="https://q10viking.github.io/Mini-FrontEnd-project/12%20Notes%20App/"/>
+<common-progresson-snippet src="https://aeroxian.github.io/Mini-FrontEnd-project/12%20Notes%20App/"/>
 
 ### flex-wrap使用
 
@@ -97,6 +97,6 @@ body{
 
 ## flex: 数值
 
-[ flex: 1 Drink Water](https://q10viking.github.io/minifrontendproject/13%20Drink%20Water.html#flex)
+[ flex: 1 Drink Water](https://aeroxian.github.io/minifrontendproject/13%20Drink%20Water.html#flex)
 
-[flex: 5 Expanding Cards](https://q10viking.github.io/minifrontendproject/19%20Expanding%20Cards.html)
+[flex: 5 Expanding Cards](https://aeroxian.github.io/minifrontendproject/19%20Expanding%20Cards.html)

@@ -94,7 +94,7 @@ jobs:
 
 <img src="/images/vuepress/image-20211126140058431.png" alt="image-20211126140058431" style="zoom:70%;" />
 
-到此为止，进行访问 https://q10viking.github.io/
+到此为止，进行访问 https://aeroxian.github.io/
 
 <img src="/images/vuepress/image-20211126135116578.png" alt="image-20211126135116578" style="zoom:50%;" />
 

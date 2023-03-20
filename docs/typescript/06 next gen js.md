@@ -48,11 +48,11 @@ const hobbActivies = [...hobbies];
 
 ```js
 const person = {
-  name: "静默",
+  name: "Aeroxian",
   developer: "Java",
 };
 
-const Q10Viking = { ...person };
+const Aeroxian = { ...person };
 ```
 
 
@@ -83,7 +83,7 @@ console.log(hobbies, hobby1, hobby2, remainingHobbies);
 
 ```typescript {6}
 const person = {
-  name: "静默",
+  name: "Aeroxian",
   developer: "Java",
 };
 

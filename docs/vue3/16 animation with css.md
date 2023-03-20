@@ -110,7 +110,7 @@ export default {
   <button @click="flag = !flag">Toggle Button</button>
   <transition name="fade" mode="out-in">
     <h1 v-if="flag" key="main">Hello Animation</h1>
-    <h1 v-else key="secondary">静默 learning Vue3</h1>
+    <h1 v-else key="secondary">Aeroxian learning Vue3</h1>
   </transition>
 </template>
 ```

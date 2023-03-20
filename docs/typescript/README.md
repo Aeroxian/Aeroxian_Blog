@@ -13,7 +13,7 @@ typora-root-url: ..\.vuepress\public
 
 [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) 
 
-![](https://img.shields.io/github/license/Q10Viking/q10viking.github.io)
+
 
 :::
 

@@ -13,7 +13,7 @@ typora-root-url: ..\.vuepress\public
 
 ::: tip
 
-[静默 on CodePen](https://codepen.io/Q10Viking)
+[Aeroxian on CodePen](https://codepen.io/Aeroxian)
 
 :::
 
@@ -71,7 +71,7 @@ export default {
 
     user: {
       type: String,
-      default: 'Q10Viking',
+      default: 'Aeroxian',
     },
 
     name: {

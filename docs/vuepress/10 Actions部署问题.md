@@ -17,7 +17,7 @@ typora-root-url: ..\.vuepress\public
 
 :::
 
-<img src="https://gitee.com/q10viking/PictureRepos/raw/master/images/image-20211127071140391.png" alt="image-20211127071140391" style="zoom:67%;" />
+<img src="https://gitee.com/aeroxian/PictureRepos/raw/master/images/image-20211127071140391.png" alt="image-20211127071140391" style="zoom:67%;" />
 
 ## 解决方案
 
@@ -25,6 +25,6 @@ typora-root-url: ..\.vuepress\public
 
 将`.github\workflows\docs.yml`中相关的缓存依赖的代码注释掉
 
-<img src="https://gitee.com/q10viking/PictureRepos/raw/master/images/image-20211127071510990.png" alt="image-20211127071510990" style="zoom:80%;" />
+<img src="https://gitee.com/aeroxian/PictureRepos/raw/master/images/image-20211127071510990.png" alt="image-20211127071510990" style="zoom:80%;" />
 
 尝试，等部署成功之后再将这个缓存打开，依然报错。所以还是将缓存的依赖继续注释掉

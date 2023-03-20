@@ -155,7 +155,7 @@ CHROMEDRIVER_PATH=E:/chromedriver/chromedriver.exe
 
 ::: tip
 
-用于爬虫程序使用,爬取 [https://q10viking.github.io)](https://q10viking.github.io/) 
+用于爬虫程序使用,爬取 [https://aeroxian.github.io)](https://aeroxian.github.io/) 
 
 config.json文件如下，我放在了.vuepress文件夹下
 
@@ -171,7 +171,7 @@ config.json文件如下，我放在了.vuepress文件夹下
 {
   "index_name": "docs",
   "start_urls": [
-    "http://q10viking.github.io"
+    "http://aeroxian.github.io"
   ],
   "stop_urls": [],
   "selectors": {
@@ -231,7 +231,7 @@ pipenv shell
 
 ```sh
 # 指定爬虫的配置文件
-./docsearch run D:/Github/q10viking.github.io/docs/.vuepress/config.json
+./docsearch run D:/Github/aeroxian.github.io/docs/.vuepress/config.json
 ```
 
 ![202111290613633](/images/vuepress/202111290613633.png)

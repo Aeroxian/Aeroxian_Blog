@@ -19,7 +19,7 @@ Node.js 附带内置的 HTTP 模块。 这是一个相当小的模块，用于�
 
 [HTTP | Node.js v18.9.1 Documentation (nodejs.org)](https://nodejs.org/api/http.html#httpcreateserveroptions-requestlistener)
 
-[Source Code](https://github.com/Q10Viking/learncode/tree/main/node/03%20http-web-demo)
+
 
 ```js
 const http = require("http")
@@ -58,7 +58,6 @@ npm install express
 
 提供静态内容的路由
 
-[Source Code](https://github.com/Q10Viking/learncode/tree/main/node/04%20express%20web%20demo)
 
 ```js
 const express = require("express");
@@ -145,7 +144,7 @@ app.use((req, res, next) => {})
 
   
   
-  [Source Code](https://github.com/Q10Viking/learncode/tree/main/node/05%20express-middle-ware)
+
   
   
   
@@ -226,7 +225,6 @@ app.post('/<path>', (req, res) => {
 
 ## CRUD
 
-[Source Code](https://github.com/Q10Viking/learncode/tree/main/node/06%20express-reading-writing)
 
 为资源实现 CRUD 是一项常见任务。 Express 有一种 `route()` 方法正用于此目的。 使用 `route()`方法时，可以对代码进行分组，使其更易于阅读。
 

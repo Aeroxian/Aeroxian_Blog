@@ -81,7 +81,7 @@ Node.js 具有内置的读取–求值–打印循环 (REPL) 模式，**可用�
 
 [使用 Node.js 构建 JavaScript 应用程序 - Training | Microsoft Learn](https://learn.microsoft.com/zh-cn/training/paths/build-javascript-applications-nodejs/)
 
-[Source Code](https://github.com/Q10Viking/learncode/tree/main/node/01%20package%20config)
+
 
 package.json 文件不是你手动创作的内容， 这是运行 npm `init` 命令的结果。 可以通过两种主要方法运行此命令：
 

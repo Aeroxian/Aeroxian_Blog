@@ -30,7 +30,7 @@ interface Person {
 
 ```typescript
 let user1: Person = {
-  name: "静默",
+  name: "Aeroxian",
   score: 100,
   greet(phrase: string) {
     console.log("Greet: " + phrase);
@@ -86,7 +86,7 @@ class Person implements Greetable {
 ::: code-group-item 使用
 
 ```typescript {1}
-let user1: Greetable = new Person("静默");
+let user1: Greetable = new Person("Aeroxian");
 user1.greet('Hi there,I\'m ');
 ```
 

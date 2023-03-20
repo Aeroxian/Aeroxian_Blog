@@ -237,7 +237,7 @@ share the same declaration set
 
 :::
 
-[Expanding Cards](https://q10viking.github.io/minifrontendproject/19%20Expanding%20Cards.html)
+[Expanding Cards](https://aeroxian.github.io/minifrontendproject/19%20Expanding%20Cards.html)
 
 #### :nth-last-of-type
 
@@ -334,7 +334,7 @@ input[type = 'range']::-webkit-slider-thumb{}
 
 最后一个元素没有下划线
 
-[Live User Filter](https://q10viking.github.io/minifrontendproject/26%20Live%20User%20Filter.html)
+[Live User Filter](https://aeroxian.github.io/minifrontendproject/26%20Live%20User%20Filter.html)
 
 ```scss
 // 下划线得设置

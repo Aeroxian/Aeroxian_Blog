@@ -85,11 +85,11 @@ background-repeat: no-repeat;
 background-position: center;
 ```
 
-[项目预览（Project view）](https://q10viking.github.io/Mini-FrontEnd-project/10%20Simple%20Typing%20animation/)
+[项目预览（Project view）](https://aeroxian.github.io/Mini-FrontEnd-project/10%20Simple%20Typing%20animation/)
 
-[相关笔记](https://q10viking.github.io/minifrontendproject/06%20Simple%20Typing%20Animation.html#%E7%AC%94%E8%AE%B0)
+[相关笔记](https://aeroxian.github.io/minifrontendproject/06%20Simple%20Typing%20Animation.html#%E7%AC%94%E8%AE%B0)
 
-<common-progresson-snippet src="https://q10viking.github.io/Mini-FrontEnd-project/10%20Simple%20Typing%20animation/"/>
+<common-progresson-snippet src="https://aeroxian.github.io/Mini-FrontEnd-project/10%20Simple%20Typing%20animation/"/>
 
 
 
@@ -97,9 +97,9 @@ background-position: center;
 
 ### Random Image Feed Demo
 
-[相关笔记](https://q10viking.github.io/minifrontendproject/10%20Random%20Image%20Feed.html)
+[相关笔记](https://aeroxian.github.io/minifrontendproject/10%20Random%20Image%20Feed.html)
 
-<common-progresson-snippet src="https://q10viking.github.io/Mini-FrontEnd-project/14%20Random%20Image%20Feed/"/>
+<common-progresson-snippet src="https://aeroxian.github.io/Mini-FrontEnd-project/14%20Random%20Image%20Feed/"/>
 
 
 

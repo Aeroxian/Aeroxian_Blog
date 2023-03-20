@@ -45,12 +45,12 @@ export default {
 
     user: {
       type: String,
-      default: 'Q10Viking',
+      default: 'Aeroxian',
     },
 
     name: {
       type: String,
-      default: '静默',
+      default: 'Aeroxian',
     },
 
     height: {

@@ -66,7 +66,7 @@ const userListFilter = computed(()=>{
 
 :::
 
-[Live User Filter Source Code](https://github.com/Q10Viking/Mini-FrontEnd-project/tree/main/32%20Live%20User%20Filter/refactor-by-vue)
+
 
 ```vue
 <ol class="userlist" id="userlist">
@@ -306,9 +306,9 @@ defineExpose({
 
 ## v-html 
 
-[Event KeybordCodes](https://q10viking.github.io/minifrontendproject/29%20Event%20KeyCodes.html)
+[Event KeybordCodes](https://aeroxian.github.io/minifrontendproject/29%20Event%20KeyCodes.html)
 
-<common-progresson-snippet src="https://q10viking.github.io/Mini-FrontEnd-project/34%20Event%20KeyCodes/vite-project/dist/"/>
+<common-progresson-snippet src="https://aeroxian.github.io/Mini-FrontEnd-project/34%20Event%20KeyCodes/vite-project/dist/"/>
 
 ### 不能有内容
 
@@ -553,7 +553,7 @@ withDefaults(defineProps<Props>(), {
 
 ### 定义事件
 
-[Sortable List demo](https://q10viking.github.io/minifrontendproject/32%20Sorted%20LIst.html)
+[Sortable List demo](https://aeroxian.github.io/minifrontendproject/32%20Sorted%20LIst.html)
 
  [typing-component-emits](https://vuejs.org/guide/typescript/composition-api.html#typing-component-emits)
 
@@ -605,7 +605,7 @@ function swap(srcIdx:number,targetIdx:number){
 
 ## class样式
 
-[Sortable List demo](https://q10viking.github.io/minifrontendproject/32%20Sorted%20LIst.html)
+[Sortable List demo](https://aeroxian.github.io/minifrontendproject/32%20Sorted%20LIst.html)
 
 ### 添加class
 

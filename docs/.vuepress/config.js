@@ -11,15 +11,15 @@ import { docsearchPlugin  } from '@vuepress/plugin-docsearch'
 const sidebar = autoGenSidebar();
 module.exports = {
   lang: 'zh-CN',
-  title: '静默のBlog',
-  description: '静默的Vuepress Blog',
+  title: '吖冼的Blog',
+  description: 'Aeroxian的Vuepress Blog',
   head: [['link', { rel: 'icon', href: '/images/favicon-32x32.png' }]], // icon设置
   plugins: [
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
     }),
     googleAnalyticsPlugin({
-      id: 'G-9Q8QRJLSGZ',
+      id: 'G-G7CM4H37VB',
     }),
     docsearchPlugin({
       appId: '20P1NJDB7B',  // Add your own Application ID
@@ -29,7 +29,7 @@ module.exports = {
   ],
   theme: defaultTheme({
     // 默认主题配置
-    logo: 'https://q10viking.github.io/images/logo.png',
+    logo: 'https://aeroxian.github.io/images/logo.png',
     lastUpdated: false,   // 禁用显示更新时间
     contributors: false,   // 禁用显示贡献者
     sidebar,

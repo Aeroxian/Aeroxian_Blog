@@ -48,7 +48,7 @@ prev:
         <option value="text-black">Black</option>
         <option value="text-orange">Orange</option>
       </select>
-      <div class="circle" :class="[textColor,circle_class]">静默</div>
+      <div class="circle" :class="[textColor,circle_class]">Aeroxian</div>
     </div>
 ```
 
@@ -109,7 +109,7 @@ styleOject: {
              {width: size+'px',height: size+'px',lineHeight: size+'px'},
              {transform:'rotate(30deg)'}]"
      >
-    静默
+    Aeroxian
 </div>
 
 
@@ -136,7 +136,7 @@ styleOject: {
                  {width: size+'px',height: size+'px',lineHeight: size+'px'},
                  {transform:'rotate(30deg)'}]"
          >
-        静默
+        Aeroxian
     </div>
 </div>
 ```

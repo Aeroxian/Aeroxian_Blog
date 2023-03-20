@@ -1,10 +1,9 @@
 
-![](https://img.shields.io/github/license/Q10Viking/q10viking.github.io)
 ## 博客展示
 
 基于vuepress2构建的笔记文档
 
-[静默的Vlog https://q10viking.github.io/](https://q10viking.github.io/)
+[Aeroxian的Vlog https://aeroxian.github.io/](https://aeroxian.github.io/)
 
 ## 笔记内容📗
 
@@ -12,11 +11,11 @@
 
 ### Web FrontEnd
 
-- [CSS3](https://q10viking.github.io/css/)
-- [Vue框架学习](https://q10viking.github.io/vue3/)
-- [Vuepress2博客搭建](https://q10viking.github.io/vuepress/)
-- [TypeScript学习](https://q10viking.github.io/typescript/)
-- [JavaScript学习](https://q10viking.github.io/javascript/)
+- [CSS3](https://aeroxian.github.io/css/)
+- [Vue框架学习](https://aeroxian.github.io/vue3/)
+- [Vuepress2博客搭建](https://aeroxian.github.io/vuepress/)
+- [TypeScript学习](https://aeroxian.github.io/typescript/)
+- [JavaScript学习](https://aeroxian.github.io/javascript/)
 
 
 

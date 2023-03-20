@@ -14,7 +14,7 @@ let navbar = [
     },
     {
         text: 'Github',
-        link: 'https://github.com/Q10Viking/q10viking.github.io'
+        link: 'https://github.com/Q10Viking/aeroxian.github.io'
     }
 ]
 

@@ -91,7 +91,7 @@ ssh -T git@gitee.com
 ssh -T git@github.com
 
 # 输入如
-Hi Q10Viking! You've successfully authenticated, but GitHub does not provide shell access.
+Hi Aeroxian! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
 ### github ping不通
@@ -109,7 +109,7 @@ Hi Q10Viking! You've successfully authenticated, but GitHub does not provide she
 ## 设置用户全局信息
 
 ```sh
-git config --global  user.name "静默"
+git config --global  user.name "Aeroxian"
 git config --global  user.email "cau1403090523@gmail.com"
 ```
 

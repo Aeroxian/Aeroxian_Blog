@@ -157,7 +157,7 @@ html{
 
 ### Inheritance
 
-[Hidden Search Widget](https://q10viking.github.io/minifrontendproject/20%20Hidden%20Search%20Widget.html#hidden-search-widget)
+[Hidden Search Widget](https://aeroxian.github.io/minifrontendproject/20%20Hidden%20Search%20Widget.html#hidden-search-widget)
 
 ```scss
 // 抽离公共的区域部分

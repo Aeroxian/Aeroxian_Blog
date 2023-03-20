@@ -9,17 +9,16 @@ typora-root-url: ..\.vuepress\public
 
 ## 环境搭建
 
-1. 在github创建仓库vlog 用于存放我们的项目，并克隆到电脑上
+1. 在github创建仓库blog 用于存放我们的项目，并克隆到电脑上
+  > 仓库名跟构建好的pages网址保持一致(一般为 #用户名#.github.io)时，可以直接使用该名字直接访问我们的博客网站，不需额外设置项目根路径 :rocket
 
-   <img src="/images/vuepress/image-20211126054031455.png" alt="image-20211126054031455" style="zoom: 50%;" />
-
-2. 进入vlog目录，安装vuepress
+2. 进入blog目录，安装vuepress
 
    ```sh
    # 构建前端的包管理
-   npm init
-   # 安装vuepress 当前的最新版本是2.0.0-beta.27
-   npm install -D vuepress@next
+   yarn init
+   # 安装vuepress 当前的最新版本是2.0.0-beta.61 我使用的beta.60
+   yarn add -D vuepress@next
    
    # 在 package.json 中添加一些 scripts
    {
@@ -42,7 +41,8 @@ typora-root-url: ..\.vuepress\public
 3. 在本地启动服务器来开发你的文档网站
 
    ```sh
-   npm run docs:dev
+   yarn run docs:dev
+
    ```
 
    
@@ -60,15 +60,18 @@ typora-root-url: ..\.vuepress\public
 
  module.exports = {
     lang: 'zh-CN',
-    title: '静默的Vlog',
-    description: '静默的Vuepress Blog',
+    title: '吖冼的Blog',
+    description: 'Aeroxian的Vuepress Blog',
     head: [['link', { rel: 'icon', href: '/images/favicon-32x32.png' }]], // icon设置
 
-    themeConfig: {
-      logo: '/images/logo.png',
-      lastUpdated: false,   // 禁用显示更新时间
-      contributors: false   // 禁用显示贡献者 
-    },
+  theme: defaultTheme({
+    // 默认主题配置
+    logo: 'https://aeorxian.github.io/images/logo.png',
+    lastUpdated: false,   // 禁用显示更新时间
+    contributors: false,   // 禁用显示贡献者
+    sidebar,
+    navbar
+  }),
   }
 ```
 
@@ -80,21 +83,21 @@ typora-root-url: ..\.vuepress\public
 
 ```json
 "devDependencies": {
-  	"@vuepress/plugin-docsearch": "^2.0.0-beta.27",
-	"@vuepress/plugin-google-analytics": "^2.0.0-beta.27",
-	"@vuepress/plugin-register-components": "^2.0.0-beta.27",
-	"vuepress": "^2.0.0-beta.27"
+  	"@vuepress/plugin-docsearch": "^2.0.0-beta.60",
+	"@vuepress/plugin-google-analytics": "^2.0.0-beta.60",
+	"@vuepress/plugin-register-components": "^2.0.0-beta.60",
+	"vuepress": "^2.0.0-beta.60"
 }
 ```
 
-为了不使得它更新，我将箭头去掉,就使用2.0.0-beta.27
+为了不使得它更新，我将箭头去掉,就使用2.0.0-beta.60
 
 ```json
 "devDependencies": {
-    "@vuepress/plugin-docsearch": "2.0.0-beta.27",
-    "@vuepress/plugin-google-analytics": "2.0.0-beta.27",
-    "@vuepress/plugin-register-components": "2.0.0-beta.27",
-    "vuepress": "2.0.0-beta.27"
+    "@vuepress/plugin-docsearch": "2.0.0-beta.60",
+    "@vuepress/plugin-google-analytics": "2.0.0-beta.60",
+    "@vuepress/plugin-register-components": "2.0.0-beta.60",
+    "vuepress": "2.0.0-beta.60"
   }
 ```
 

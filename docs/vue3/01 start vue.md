@@ -163,7 +163,7 @@ Reactivity is when any changes to the data immediately reflected on the page.
 const vm = Vue.createApp({
     data(){
         return {
-            userName: "静默",
+            userName: "Aeroxian",
             description: "Learning Vue"
         }
     }
@@ -203,7 +203,7 @@ v-model可以使用v-bind+listening event来实现
 const vm = Vue.createApp({
   data() {
     return {
-      userName: "静默",
+      userName: "Aeroxian",
     };
   },
   methods: {
@@ -247,7 +247,7 @@ number,lazy,trim用来处理input输入框的信息
 ::: code-group-item html
 
 ```html
-<p><a :href="blogLink" target="_blank">静默's Vlog</a></p>
+<p><a :href="blogLink" target="_blank">Aeroxian's Vlog</a></p>
 ```
 
 :::
@@ -259,9 +259,9 @@ number,lazy,trim用来处理input输入框的信息
 const vm = Vue.createApp({
     data(){
         return {
-            userName: "静默",
+            userName: "Aeroxian",
             description: "Learning Vue",
-            blogLink:'https://q10viking.github.io'
+            blogLink:'https://aeroxian.github.io'
         }
     }
 }).mount("#app");
@@ -289,7 +289,7 @@ const vm = Vue.createApp({
 const vm = Vue.createApp({
   data() {
     return {
-      raw_url: '<a href="https://q10viking.github.io" target="_blank">静默 Blog </a>',
+      raw_url: '<a href="https://aeroxian.github.io" target="_blank">Aeroxian Blog </a>',
     };
   },
 }).mount("#app");
@@ -318,7 +318,7 @@ v-html存在跨站攻击的危险
     export default {
     data(){
         return {
-           userName: "静默",
+           userName: "Aeroxian",
            description: "Learning Vue"
         }
     }
