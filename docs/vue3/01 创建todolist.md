@@ -87,5 +87,5 @@ vm.$data.inputValue
 
 ​										
 
-![202111280616562](/images/vue3/202111280616562.png)
+![202111280616562](../.vuepress/public/images/vue3/202111280616562.png)
 

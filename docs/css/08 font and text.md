@@ -11,7 +11,7 @@ typora-root-url: ..\.vuepress\public
 
 ## 	Generic Families & Font Families
 
-![202112142315541](/images/css/202112142315541.jpg)
+![202112142315541](../.vuepress/public/images/css/202112142315541.jpg)
 
 ::: tip
 
@@ -19,7 +19,7 @@ typora-root-url: ..\.vuepress\public
 
 :::
 
-![202112142322970](/images/css/202112142322970.jpg)
+![202112142322970](../.vuepress/public/images/css/202112142322970.jpg)
 
 ## 系统平台安装的字体User's computer
 

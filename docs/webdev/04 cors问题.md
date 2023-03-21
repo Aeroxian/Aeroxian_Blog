@@ -15,7 +15,7 @@ Cross-Origin Resource Sharing。是浏览器的行为，出于安全原因，浏
 
 一个跨域的例子，从`https://domain-a.com`的前端js代码请求`https://domain-b.com/data.json`提供的数据。
 
-![image-20220926122703916](/images/webdev/image-20220926122703916.png)
+![image-20220926122703916](../.vuepress/public/images/webdev/image-20220926122703916.png)
 
 
 
@@ -25,7 +25,7 @@ Cross-Origin Resource Sharing。是浏览器的行为，出于安全原因，浏
 >
 > 这是针对简单请求的，如果是预检请求没有返回相应的cors请求头，那么真正的请求不会发送到服务端。
 
-![image-20220926154823739](/images/webdev/image-20220926154823739.png)
+![image-20220926154823739](../.vuepress/public/images/webdev/image-20220926154823739.png)
 
 ### 代码验证
 
@@ -90,7 +90,7 @@ axios.get(api).then(response => {
 
 浏览器中出现跨域请求`http://127.0.0.1:5500/dist/index.html`请求`http://localhost:9000/test`的资源,此时跨域问题出现了
 
-![image-20220926125820871](/images/webdev/image-20220926125820871.png)
+![image-20220926125820871](../.vuepress/public/images/webdev/image-20220926125820871.png)
 
 ```sh
 Access to XMLHttpRequest at 'http://localhost:9000/test' from origin 'http://127.0.0.1:5500'
@@ -99,11 +99,11 @@ has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is pres
 
 在index.js脚本当中,请求了不同源的资源.浏览器限制加载该资源.(可以看到api接口返回的是200,是可以调通的,但是浏览器限制了资源的加载)
 
-![image-20220926130314335](/images/webdev/image-20220926130314335.png)
+![image-20220926130314335](../.vuepress/public/images/webdev/image-20220926130314335.png)
 
 > 在node环境中执行前端的index.js脚本,可以看到有数据.
 
-![image-20220926131603859](/images/webdev/image-20220926131603859.png)
+![image-20220926131603859](../.vuepress/public/images/webdev/image-20220926131603859.png)
 
 
 
@@ -116,13 +116,13 @@ has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is pres
 
 > This operation performs a simple exchange between the client and the server, **using CORS headers to handle the privileges**:
 
-![image-20220926133921077](/images/webdev/image-20220926133921077.png)
+![image-20220926133921077](../.vuepress/public/images/webdev/image-20220926133921077.png)
 
 
 
 从浏览器中查看请求头,发现浏览器自动为我们添加请求头的Origin.要解决cors跨域问题,只需要我们在服务端添加相应的响应头`Access-Control-Allow-Origin`即可
 
-![image-20220926133729516](/images/webdev/image-20220926133729516.png)
+![image-20220926133729516](../.vuepress/public/images/webdev/image-20220926133729516.png)
 
 在服务端(app.js)添加响应头`Access-Control-Allow-Origin`
 
@@ -142,7 +142,7 @@ app.listen(9000,()=>{
 })
 ```
 
-![image-20220926135217955](/images/webdev/image-20220926135217955.png)
+![image-20220926135217955](../.vuepress/public/images/webdev/image-20220926135217955.png)
 
 
 
@@ -163,7 +163,7 @@ It is an [`OPTIONS`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/O
 1. 如下面的案例自己添加了一个X-PINGOTHER的头部信息，在跨域的情况下会先发送预检请求
 2. 然后再发送正真的请求
 
-![img](/images/webdev/preflight_correct.png)
+![img](../.vuepress/public/images/webdev/preflight_correct.png)
 
 ### 代码验证❤️
 
@@ -233,13 +233,13 @@ Access to XMLHttpRequest at 'http://localhost:9000/test' from origin 'http://127
 has been blocked by CORS policy: Response to preflight request doesn\'t pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 ```
 
-![image-20220926171001344](/images/webdev/image-20220926171001344.png)
+![image-20220926171001344](../.vuepress/public/images/webdev/image-20220926171001344.png)
 
-![image-20220926171706077](/images/webdev/image-20220926171706077.png)
+![image-20220926171706077](../.vuepress/public/images/webdev/image-20220926171706077.png)
 
 预检查请求是一个options方法
 
-![image-20220926171834319](/images/webdev/image-20220926171834319.png)
+![image-20220926171834319](../.vuepress/public/images/webdev/image-20220926171834319.png)
 
 
 
@@ -273,7 +273,7 @@ app.listen(9000,()=>{
 })
 ```
 
-![image-20220926173206563](/images/webdev/image-20220926173206563.png)
+![image-20220926173206563](../.vuepress/public/images/webdev/image-20220926173206563.png)
 
 
 
@@ -407,10 +407,10 @@ Access-Control-Allow-Origin: https://foo.example
 
 :::
 
-![image-20220926175702008](/images/webdev/image-20220926175702008.png)
+![image-20220926175702008](../.vuepress/public/images/webdev/image-20220926175702008.png)
 
 该插件会自动添加响应的信息，方便开发测试。
 
-![image-20220926180551648](/images/webdev/image-20220926180551648.png)
+![image-20220926180551648](../.vuepress/public/images/webdev/image-20220926180551648.png)
 
 值得注意的是，如果预检请求，尽管返回了响应的cors头部信息，但是如果返回的是不是2xx状态，比如401,那么还是会有跨域的问题。所以该插件尽管添加了这些信息，问题仍然出现。

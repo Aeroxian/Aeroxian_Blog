@@ -38,7 +38,7 @@ import "./count.js";
 
 浏览器实现了esmodule，能够支持导入`count.js`
 
-![image-20220928124855584](/images/webdev/image-20220928124855584.png)
+![image-20220928124855584](../.vuepress/public/images/webdev/image-20220928124855584.png)
 
 如果我们像这样导入，浏览器esmodule则不会去node_modules查找
 
@@ -47,7 +47,7 @@ import "./count.js";
 import _ from "lodash";  // 浏览器不会去node_modules中找lodash
 ```
 
-![image-20220928125145177](/images/webdev/image-20220928125145177.png)
+![image-20220928125145177](../.vuepress/public/images/webdev/image-20220928125145177.png)
 
 > 既然我们现在的最佳实践就是node_modules, 那为什么es官方在我们导入非绝对路径和非相对路径的资源的时候不默认帮我们 搜寻node_modules呢？假设浏览器做了这个事情，那么会导致性能下降，因为依赖也可能引入更多的import。会形成一个关系网图。
 
@@ -108,7 +108,7 @@ export default defineConfig({
 
 可以看到发送了很多http请求加载模块
 
-![image-20220928135336799](/images/webdev/image-20220928135336799.png)
+![image-20220928135336799](../.vuepress/public/images/webdev/image-20220928135336799.png)
 
 
 

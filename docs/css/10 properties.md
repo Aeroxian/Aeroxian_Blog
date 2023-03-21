@@ -17,7 +17,7 @@ typora-root-url: ..\.vuepress\public
 
 ## Core Properties
 
-![202112081621574](/images/css/202112081621574.jpg)
+![202112081621574](../.vuepress/public/images/css/202112081621574.jpg)
 
 ## Anthor properties
 

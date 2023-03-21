@@ -29,7 +29,7 @@ export  const thing: number;
 
 > 在node_modules的@types模块下
 
-![image-20220919170711721](/images/typescript/image-20220919170711721.png)
+![image-20220919170711721](../.vuepress/public/images/typescript/image-20220919170711721.png)
 
 :::: code-group
 ::: code-group-item app.ts

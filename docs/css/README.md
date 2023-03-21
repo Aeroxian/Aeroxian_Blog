@@ -23,7 +23,7 @@ Learn css to build beautiful web page
 
 :::
 
-![202112022154542](/images/css/202112022154542.jpg)
+![202112022154542](../.vuepress/public/images/css/202112022154542.jpg)
 
 ## 资料
 

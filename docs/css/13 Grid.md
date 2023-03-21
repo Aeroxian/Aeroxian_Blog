@@ -53,7 +53,7 @@ typora-root-url: ..\.vuepress\public
 }
 ```
 
-![image-20220927173343800](/images/css/image-20220927173343800.png)
+![image-20220927173343800](../.vuepress/public/images/css/image-20220927173343800.png)
 
 
 

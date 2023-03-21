@@ -26,7 +26,7 @@ This element is <strong>strong</strong> and     has some super fun <code>code</c
 </div>
 ```
 
-![image-20220725045656056](/images/javascript/image-20220725045656056.png)
+![image-20220725045656056](../.vuepress/public/images/javascript/image-20220725045656056.png)
 
 <common-codepen-snippet title="innerHTML&innerText&textContent" slug="YzaxygR" />
 

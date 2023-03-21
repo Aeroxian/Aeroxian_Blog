@@ -15,6 +15,6 @@ Vue Lifecycle allows us to run code at certain points in application's lifecycle
 
 :::
 
-![实例的生命周期](https://v3.cn.vuejs.org/images/lifecycle.svg)
+![实例的生命周期](https://v3.cn.vuejs.org../.vuepress/public/images/lifecycle.svg)
 
-![202112031020493](/images/vue3/202112031020493.jpg)
+![202112031020493](../.vuepress/public/images/vue3/202112031020493.jpg)

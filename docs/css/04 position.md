@@ -33,7 +33,7 @@ position能将所有元素改变为inline-block
 
 :::
 
-![202112081832684](/images/css/202112081832684.jpg)
+![202112081832684](../.vuepress/public/images/css/202112081832684.jpg)
 
 ## Changine the position
 
@@ -53,7 +53,7 @@ Posting移动的位置需要有一个参照物，也就是refer to **Positioning
 
 :::
 
-![202112081829836](/images/css/202112081829836.jpg)
+![202112081829836](../.vuepress/public/images/css/202112081829836.jpg)
 
 ## z-index
 

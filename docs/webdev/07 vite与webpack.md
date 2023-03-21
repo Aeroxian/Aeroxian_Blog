@@ -57,8 +57,8 @@ const Vue = webpack_require("vue");
 
 因为webpack支持多种模块化, 他一开始必须要统一模块化代码, 所以意味着他需要将所有的依赖全部读一遍,进行编译。然后才启动服务器。
 
-![image-20220928122207480](/images/webdev/image-20220928122207480.png)
+![image-20220928122207480](../.vuepress/public/images/webdev/image-20220928122207480.png)
 
 而Vite则是基于es module的直接先启动服务器，然后根据请求按需导入
 
-![image-20220928122535926](/images/webdev/image-20220928122535926.png)
+![image-20220928122535926](../.vuepress/public/images/webdev/image-20220928122535926.png)

@@ -302,7 +302,7 @@ defineExpose({
 })
 ```
 
-![image-20220729124357315](/images/minifrontendproject/image-20220729124357315.png)
+![image-20220729124357315](../.vuepress/public/images/minifrontendproject/image-20220729124357315.png)
 
 ## v-html 
 

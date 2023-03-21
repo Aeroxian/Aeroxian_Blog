@@ -27,7 +27,7 @@ Modules import one another using a **module loader**. At runtime the module load
 
 在node.js中经常看到使用Require [node.js - The difference between "require(x)" and "import x" - Stack Overflow](https://stackoverflow.com/questions/46677752/the-difference-between-requirex-and-import-x)
 
-![202112202143684](/images/javascript/202112202143684.png)
+![202112202143684](../.vuepress/public/images/javascript/202112202143684.png)
 
 ## function*
 

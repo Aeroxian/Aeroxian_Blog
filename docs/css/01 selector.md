@@ -11,13 +11,13 @@ typora-root-url: ..\.vuepress\public
 
 ## id选择器
 
-![202112081217328](/images/css/202112081217328.jpg)
+![202112081217328](../.vuepress/public/images/css/202112081217328.jpg)
 
 
 
 ## 类选择器
 
-![202112081215350](/images/css/202112081215350.jpg)
+![202112081215350](../.vuepress/public/images/css/202112081215350.jpg)
 
 ### 玩法： Google样式
 
@@ -27,17 +27,17 @@ typora-root-url: ..\.vuepress\public
 
 ## 标签选择器  
 
-![202112081213294](/images/css/202112081213294.jpg)
+![202112081213294](../.vuepress/public/images/css/202112081213294.jpg)
 
 ## 通配符*全选择器
 
-![202112081216292](/images/css/202112081216292.jpg)
+![202112081216292](../.vuepress/public/images/css/202112081216292.jpg)
 
 ## Combinator组合
 
 ###  Descend后代选择器
 
-![202112081301739](/images/css/202112081301739.jpg)
+![202112081301739](../.vuepress/public/images/css/202112081301739.jpg)
 
 
 
@@ -49,16 +49,16 @@ typora-root-url: ..\.vuepress\public
 
 :::
 
-![202112081300044](/images/css/202112081300044.jpg)
+![202112081300044](../.vuepress/public/images/css/202112081300044.jpg)
 
 
 ### Adjacent Sibling相邻
 
-![202112081257664](/images/css/202112081257664.jpg)
+![202112081257664](../.vuepress/public/images/css/202112081257664.jpg)
 
 ### General Sibling
 
-![202112081259877](/images/css/202112081259877.jpg)
+![202112081259877](../.vuepress/public/images/css/202112081259877.jpg)
 
 
 
@@ -94,7 +94,7 @@ select a tag that has the class
 
 :::
 
-![202112081634183](/images/css/202112081634183.jpg)
+![202112081634183](../.vuepress/public/images/css/202112081634183.jpg)
 
 ### 1.3 清除默认样式（重要）
 
@@ -121,11 +121,11 @@ div,p{
 
 ## 属性选择器
 
-![202112081219231](/images/css/202112081219231.jpg)
+![202112081219231](../.vuepress/public/images/css/202112081219231.jpg)
 
 
 
-![202112142110428](/images/css/202112142110428.jpg)
+![202112142110428](../.vuepress/public/images/css/202112142110428.jpg)
 
 ### 普通选择器
 
@@ -195,7 +195,7 @@ share the same declaration set
 
 ## Pseudo-classes 伪类选择器
 
-![202112081600641](/images/css/202112081600641.jpg)
+![202112081600641](../.vuepress/public/images/css/202112081600641.jpg)
 
 ::: tip
 
@@ -298,7 +298,7 @@ a:hover .mask{
 
 :::
 
-![202112081600641](/images/css/202112081600641.jpg)
+![202112081600641](../.vuepress/public/images/css/202112081600641.jpg)
 
 ### selection 选中的元素
 
@@ -349,4 +349,4 @@ input[type = 'range']::-webkit-slider-thumb{}
 
 ## css 优先级
 
-![202112081225792](/images/css/202112081225792.jpg)
+![202112081225792](../.vuepress/public/images/css/202112081225792.jpg)

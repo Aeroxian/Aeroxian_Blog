@@ -61,11 +61,11 @@ typora-root-url: ..\.vuepress\public
     lang: 'zh-CN',
     title: '吖冼的Blog',
     description: 'Aeroxian的Vuepress Blog',
-    head: [['link', { rel: 'icon', href: '/images/favicon-32x32.png' }]], // icon设置
+    head: [['link', { rel: 'icon', href: '../.vuepress/public/images/favicon-32x32.png' }]], // icon设置
 
   theme: defaultTheme({
     // 默认主题配置
-    logo: 'https://aeorxian.github.io/images/logo.png',
+    logo: 'https://aeorxian.github.io../.vuepress/public/images/logo.png',
     lastUpdated: false,   // 禁用显示更新时间
     contributors: false,   // 禁用显示贡献者
     sidebar,
@@ -108,4 +108,4 @@ typora-root-url: ..\.vuepress\public
 
 
 
-![](../.vuepress/public/images/vuepress/2023-03-21-09-29-54-image.png)
+![](../.vuepress/public../.vuepress/public/images/vuepress/2023-03-21-09-29-54-image.png)

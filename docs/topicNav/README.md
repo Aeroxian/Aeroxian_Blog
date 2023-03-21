@@ -15,5 +15,5 @@ typora-root-url: ..\.vuepress\public
 
 :::
 
-![girl](/images/202111291258902.jpg)
+![girl](../.vuepress/public/images/202111291258902.jpg)
 

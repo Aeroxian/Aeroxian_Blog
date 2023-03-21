@@ -39,4 +39,4 @@ vue create mall-web
 
 
 
-![image-20220615214302498](/images/vue3/image-20220615214302498.png)
+![image-20220615214302498](../.vuepress/public/images/vue3/image-20220615214302498.png)

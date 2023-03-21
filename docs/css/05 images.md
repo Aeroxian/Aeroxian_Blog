@@ -15,7 +15,7 @@ Because a Picture says more than a Thousand Words.
 
 :::
 
-![202112100957450](/images/css/202112100957450.jpg)
+![202112100957450](../.vuepress/public/images/css/202112100957450.jpg)
 
 ## background-size
 
@@ -72,7 +72,7 @@ background-image: radial-gradient(circle 20px at 20% 50% ,red,blue)
 
 :::
 
-![202112101250200](/images/css/202112101250200.jpg)
+![202112101250200](../.vuepress/public/images/css/202112101250200.jpg)
 
 
 

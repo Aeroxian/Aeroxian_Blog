@@ -15,7 +15,7 @@ typora-root-url: ..\.vuepress\public
 
 :::   
 
-![202112081622568](/images/css/202112081622568.jpg)
+![202112081622568](../.vuepress/public/images/css/202112081622568.jpg)
 
 ## margin collapsing
 
@@ -25,11 +25,11 @@ In General: Use either **margin-top** or **margin-bottom**
 
 :::
 
-![202112081409876](/images/css/202112081409876.jpg)
+![202112081409876](../.vuepress/public/images/css/202112081409876.jpg)
 
 ## Shorthand Properties
 
-![202112081414323](/images/css/202112081414323.jpg)
+![202112081414323](../.vuepress/public/images/css/202112081414323.jpg)
 
 ## Width and Height计算
 
@@ -43,7 +43,7 @@ In General: Use either **margin-top** or **margin-bottom**
 
 [详细解释 box-sizing - CSS Reference](https://cssreference.io/property/box-sizing/)
 
-![202112081437884](/images/css/202112081437884.jpg)
+![202112081437884](../.vuepress/public/images/css/202112081437884.jpg)
 
 
 

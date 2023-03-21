@@ -11,7 +11,7 @@ typora-root-url: ..\.vuepress\public
 
 
 
-![202111300357843](/images/typescript/202111300357843.jpg)
+![202111300357843](../.vuepress/public/images/typescript/202111300357843.jpg)
 
 ## TypeScript与JavaScript
 
@@ -20,7 +20,7 @@ typora-root-url: ..\.vuepress\public
 
 
 
-![202111300318592](/images/typescript/2021113003185921.jpg)
+![202111300318592](../.vuepress/public/images/typescript/2021113003185921.jpg)
 
 ### 类型推断
 

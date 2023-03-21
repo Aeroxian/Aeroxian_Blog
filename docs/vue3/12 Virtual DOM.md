@@ -19,17 +19,17 @@ The virtual DOM is JavaScript object.It is a lightweight copy of the actual DOM.
 
 **Vue Compiling the Template**
 
-![202112031037698](/images/vue3/202112031037698.jpg)
+![202112031037698](../.vuepress/public/images/vue3/202112031037698.jpg)
 
 **Updates using the DOM**
 
-![202112031045602](/images/vue3/202112031045602.jpg)
+![202112031045602](../.vuepress/public/images/vue3/202112031045602.jpg)
 
 
 
 **Updates using the Virtual DOM**
 
-![202112031044795](/images/vue3/202112031044795.jpg)
+![202112031044795](../.vuepress/public/images/vue3/202112031044795.jpg)
 
 ## Reactivity with Proxies
 

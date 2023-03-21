@@ -77,15 +77,15 @@ npm config set registry https://registry.npm.taobao.org
 npm i -D @vuepress/plugin-docsearch@next
 ```
 
-![202111290524749](/images/vuepress/2021112905247491.jpg)
+![202111290524749](../.vuepress/public/images/vuepress/2021112905247491.jpg)
 
 由于自己的npm源设置的是淘宝的源，导致下载下来的版本是v2.0.0-beta.26 [Package - @vuepress/plugin-docsearch (npmmirror.com)](https://npmmirror.com/package/%40vuepress%2Fplugin-docsearch)
 
-![202111290527975](/images/vuepress/202111290527975.png)
+![202111290527975](../.vuepress/public/images/vuepress/202111290527975.png)
 
 而此时npm官方上docsearch的tag next对应的版本是2.0.0-beta.27[@vuepress/plugin-docsearch - npm (npmjs.com)](https://www.npmjs.com/package/@vuepress/plugin-docsearch/v/2.0.0-beta.27)
 
-![202111290529377](/images/vuepress/202111290529377.png)
+![202111290529377](../.vuepress/public/images/vuepress/202111290529377.png)
 
 **解决方式**：将npm源切换回来官网的源,再重新安装
 

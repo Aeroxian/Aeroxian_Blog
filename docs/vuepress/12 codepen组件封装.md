@@ -19,7 +19,7 @@ typora-root-url: ..\.vuepress\public
 
 在引入codepen embed的时候，总是一堆代码，为了维护简单，封装了一个`codepen-snippet.vue`
 
-![202111271454395](/images/vuepress/202111271454395.png)
+![202111271454395](../.vuepress/public/images/vuepress/202111271454395.png)
 
 ::: details 点击查看代码
 
@@ -144,7 +144,7 @@ export default {
 
 :::
 
-![202111271451430](/images/vuepress/202111271451430.png)
+![202111271451430](../.vuepress/public/images/vuepress/202111271451430.png)
 
 ## 效果
 

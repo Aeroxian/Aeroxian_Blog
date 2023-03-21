@@ -43,7 +43,7 @@ output:{
 
 > 在开发插件的时候遇到[AeroxianのBlog (browser extionsion)](https://aeroxian.github.io/minifrontendproject/43 browser extenstion.html)
 
-![image-20220925200114394](/images/webdev/image-20220925200114394.png)
+![image-20220925200114394](../.vuepress/public/images/webdev/image-20220925200114394.png)
 
 
 

@@ -27,7 +27,7 @@ Quick start Vue Project
 
 
 
-![202112021044125](/images/vue3/202112021044125.jpg)
+![202112021044125](../.vuepress/public/images/vue3/202112021044125.jpg)
 
 ## Accessing the Instance Data:star:
 
@@ -48,7 +48,7 @@ setTimeout(() => {
 
 
 
-![202112021057333](/images/vue3/202112021057333.jpg)
+![202112021057333](../.vuepress/public/images/vue3/202112021057333.jpg)
 
 ## Multiple Vue Instances:star:
 
@@ -76,7 +76,7 @@ const vm2 = Vue.createApp({}).mount("#app-test2");
 
 ::::
 
-![202112021128352](/images/vue3/202112021128352.jpg)
+![202112021128352](../.vuepress/public/images/vue3/202112021128352.jpg)
 
 ## v-cloak
 
@@ -176,7 +176,7 @@ const vm = Vue.createApp({
 
 Vanilla Javascript来实现这种绑定
 
-![202112021320117](/images/vue3/202112021320117.jpg)
+![202112021320117](../.vuepress/public/images/vue3/202112021320117.jpg)
 
 ::: tip
 
@@ -307,7 +307,7 @@ v-html存在跨站攻击的危险
 
 
 
-![202112021343053](/images/vue3/202112021343053.jpg)
+![202112021343053](../.vuepress/public/images/vue3/202112021343053.jpg)
 
 
 ----------

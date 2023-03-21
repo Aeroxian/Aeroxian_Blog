@@ -95,7 +95,7 @@ let d = new Date("2019/12/12")
 
 ### 2.11 玩法：秒杀倒计时⭐⭐
 
-![](/images/javascript/timecalc202010152012.gif)
+![](../.vuepress/public/images/javascript/timecalc202010152012.gif)
 
 ```javascript
 // 截至时间

@@ -48,11 +48,11 @@ app.mount("#app");
 :::
 ::::
 
-![202112031304331](/images/vue3/202112031304331.jpg)
+![202112031304331](../.vuepress/public/images/vue3/202112031304331.jpg)
 
 ## Communicating with components
 
-![202112040131096](/images/vue3/202112040131096.jpg)
+![202112040131096](../.vuepress/public/images/vue3/202112040131096.jpg)
 
 ### Emit
 
@@ -303,7 +303,7 @@ export default {
 
 
 
-![202112040320630](/images/vue3/202112040320630.jpg)
+![202112040320630](../.vuepress/public/images/vue3/202112040320630.jpg)
 
 在组件激活和取消激活，有相应的lifecycle hook [生命周期钩子 | Vue.js (vuejs.org)](https://v3.cn.vuejs.org/api/options-lifecycle-hooks.html#生命周期钩子)
 

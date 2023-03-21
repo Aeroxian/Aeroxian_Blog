@@ -19,4 +19,4 @@ Learn JavaScript to build awesome interactive project
 
 
 
-![202112012109001](/images/javascript/202112012109001.jpg)
+![202112012109001](../.vuepress/public/images/javascript/202112012109001.jpg)

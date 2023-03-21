@@ -50,13 +50,13 @@ touch id_rsa.gitee
 ssh-keygen -t rsa -f id_rsa.gitee -C "1193094618@qq.com" 
 ```
 
-![202111271126733](/images/vuepress/202111271126733.png)
+![202111271126733](../.vuepress/public/images/vuepress/202111271126733.png)
 
 ## 配置SSH Key到Github和Gitee
 
 **id_rsa.gitee.pub**和 **id_rsa.github.pub**的内容分别配置到gitee和github
 
-![202111271126276](/images/vuepress/202111271126276.png)
+![202111271126276](../.vuepress/public/images/vuepress/202111271126276.png)
 
 ### 配置config文件
 

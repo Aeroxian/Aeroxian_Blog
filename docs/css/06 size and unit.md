@@ -11,11 +11,11 @@ typora-root-url: ..\.vuepress\public
 
 ## Unit
 
-![202112101314216](/images/css/202112101314216.jpg)
+![202112101314216](../.vuepress/public/images/css/202112101314216.jpg)
 
 ## Where Unit Matter
 
-![202112101319695](/images/css/202112101319695.jpg)
+![202112101319695](../.vuepress/public/images/css/202112101319695.jpg)
 
 ## How is the Size Calulated
 
@@ -25,7 +25,7 @@ typora-root-url: ..\.vuepress\public
 
 :::
 
-![202112101332430](/images/css/202112101332430.jpg)
+![202112101332430](../.vuepress/public/images/css/202112101332430.jpg)
 
 ## % Units Calculated
 
@@ -35,7 +35,7 @@ typora-root-url: ..\.vuepress\public
 
 :::
 
-![202112101334152](/images/css/202112101334152.jpg)
+![202112101334152](../.vuepress/public/images/css/202112101334152.jpg)
 
 ### 3 Rules to 
 
@@ -45,7 +45,7 @@ typora-root-url: ..\.vuepress\public
 
 :::
 
-![202112101346383](/images/css/202112101346383.jpg)
+![202112101346383](../.vuepress/public/images/css/202112101346383.jpg)
 
 ## min-widthheight & max-widthheight
 
@@ -127,7 +127,7 @@ em会乘以一个value,如浏览器默认设置的字体大小medium是16px,那�
 
 em会有继承的问题，这样会导致很混乱
 
-![202112101458816](/images/css/202112101458816.jpg)
+![202112101458816](../.vuepress/public/images/css/202112101458816.jpg)
 
 ### rem😊
 
@@ -151,7 +151,7 @@ html{
 }
 ```
 
-![image-20220922020644220](/images/css/image-20220922020644220.png)
+![image-20220922020644220](../.vuepress/public/images/css/image-20220922020644220.png)
 
 
 
@@ -186,7 +186,7 @@ max-width: 100%;
 
 ## Which Unit should choose
 
-![202112101527492](/images/css/202112101527492.jpg)
+![202112101527492](../.vuepress/public/images/css/202112101527492.jpg)
 
 ## Use auto to center element
 

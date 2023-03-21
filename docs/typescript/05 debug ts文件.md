@@ -22,11 +22,11 @@ Debugger for Microsoft Edge
 
 ### 创建launch.json文件
 
-![image (5)](https://gitee.com/aeroxian/PictureRepos/raw/master/images//202111301159819.jpg)
+![image (5)](https://gitee.com/aeroxian/PictureRepos/raw/master../.vuepress/public/images//202111301159819.jpg)
 
 选择对应插件的浏览器
 
-![image (6)](https://gitee.com/aeroxian/PictureRepos/raw/master/images//202111301200931.jpg)
+![image (6)](https://gitee.com/aeroxian/PictureRepos/raw/master../.vuepress/public/images//202111301200931.jpg)
 
 ```json
 {
@@ -58,5 +58,5 @@ Debugger for Microsoft Edge
 
 ### 代码中断点调试
 
-![image (7)](https://gitee.com/aeroxian/PictureRepos/raw/master/images//202111301205247.jpg)
+![image (7)](https://gitee.com/aeroxian/PictureRepos/raw/master../.vuepress/public/images//202111301205247.jpg)
 

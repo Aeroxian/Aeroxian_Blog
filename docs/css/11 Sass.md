@@ -13,7 +13,7 @@ typora-root-url: ..\.vuepress\public
 
 [Sass: Syntactically Awesome Style Sheets (sass-lang.com)](https://sass-lang.com/)
 
-![image-20220721001120735](/images/css/image-20220721001120735.png)
+![image-20220721001120735](../.vuepress/public/images/css/image-20220721001120735.png)
 
 
 

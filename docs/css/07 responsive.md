@@ -29,7 +29,7 @@ Let browser is able to identify the actual device
 
 如果没有viewport meta，在手机上看到的将会是缩小版
 
-![202112110723090](/images/css/202112110723090.jpg)
+![202112110723090](../.vuepress/public/images/css/202112110723090.jpg)
 
 ## Tools
 
@@ -39,7 +39,7 @@ need both to create responsive website
 
 :::
 
-![202112110713621](/images/css/202112110713621.jpg)
+![202112110713621](../.vuepress/public/images/css/202112110713621.jpg)
 
 ```css
 /* If statement*/

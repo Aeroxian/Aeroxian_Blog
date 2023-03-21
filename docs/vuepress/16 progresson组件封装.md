@@ -34,7 +34,7 @@ typora-root-url: ..\.vuepress\public
                            src="https://www.processon.com/embed/61b8656e637689712447357c"/>
 ```
 
-![202112141818657](/images/vuepress/202112141818657.jpg)
+![202112141818657](../.vuepress/public/images/vuepress/202112141818657.jpg)
 
 ## 源码实现
 

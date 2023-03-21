@@ -11,7 +11,7 @@ typora-root-url: ..\.vuepress\public
 
 
 
-![img](/images/webdev/browser.jpg)
+![img](../.vuepress/public/images/webdev/browser.jpg)
 
 [microsoft/Web-Dev-For-Beginners: 24 Lessons, 12 Weeks, Get Started as a Web Developer (github.com)](https://github.com/microsoft/Web-Dev-For-Beginners)
 

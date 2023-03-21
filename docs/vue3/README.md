@@ -16,7 +16,7 @@ typora-root-url: ..\.vuepress\public
 
 
 
-![202112020913845](/images/vue3/202112020913845.jpg)
+![202112020913845](../.vuepress/public/images/vue3/202112020913845.jpg)
 
 
 <div id="root">
@@ -80,7 +80,7 @@ export default {
 
 ## Vue2 to Vue3
 
-![image-20220919174635377](/images/typescript/image-20220919174635377.png)
+![image-20220919174635377](../.vuepress/public/images/typescript/image-20220919174635377.png)
 
 
 

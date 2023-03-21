@@ -178,7 +178,7 @@ row的操作
 
 #### 5.5.3  玩法：动态创建和删除表格⭐⭐
 
-![](/images/javascript/dynamiccreatetable.gif)
+![](../.vuepress/public/images/javascript/dynamiccreatetable.gif)
 
 ```js
 let btn = document.getElementById("btn"),

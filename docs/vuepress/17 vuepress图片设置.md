@@ -11,7 +11,7 @@ typora-root-url: ..\.vuepress\public
 
 ## 在专题文件夹下存放图片
 
-![image-20220606163112059](/images/vuepress/image-20220606163112059.png)
+![image-20220606163112059](../.vuepress/public/images/vuepress/image-20220606163112059.png)
 
 最终生成的图片路径会成为这样。
 
@@ -22,7 +22,7 @@ typora-root-url: ..\.vuepress\public
 而vuepress部署上线正确访问的图片路径是
 
 ```html
-http://localhost:8080/images/vuepress/image-20211126054031455.png
+http://localhost:8080../.vuepress/public/images/vuepress/image-20211126054031455.png
 ```
 
 **所以这种方案不可取**
@@ -33,7 +33,7 @@ http://localhost:8080/images/vuepress/image-20211126054031455.png
 
 > 根据vuepress访问图片目录的规定，必须在docs\.vuepress\public目录下。但是为了兼容typora，需要重新设定路径。
 
-![image-20220606164204901](/images/vuepress/image-20220606164204901.png)
+![image-20220606164204901](../.vuepress/public/images/vuepress/image-20220606164204901.png)
 
 但是如果这样设置的话，也还是不行
 
@@ -48,22 +48,22 @@ typora-root-url: ..\.vuepress\public\images\vuepress
 <img src="/image-20220606163112059.png" alt="image-20220606163112059" class="medium-zoom-image">
 ```
 
-而我们的图片并不在public根目录下，访问不到。而是在public/images/vuepress目录下。
+而我们的图片并不在public根目录下，访问不到。而是在public../.vuepress/public/images/vuepress目录下。
 
 ### 重新设定typora路径目录⭐⭐
 
-![image-20220606165233814](/images/vuepress/image-20220606165233814.png)
+![image-20220606165233814](../.vuepress/public/images/vuepress/image-20220606165233814.png)
 
 而此时markdown复制图片的指定到我们分好类的文件夹中，typora会自动生成路径，成如下模式。
 
 ```markdown
-![image-20220606165233814](/images/vuepress/image-20220606165233814.png)
+![image-20220606165233814](../.vuepress/public/images/vuepress/image-20220606165233814.png)
 ```
 
 **这样就解决了typora和vuepress访问路径的问题**
 
 ```html
-<img src="/images/vuepress/image-20220606165233814.png" alt="image-20220606165233814" class="medium-zoom-image">
+<img src="../.vuepress/public/images/vuepress/image-20220606165233814.png" alt="image-20220606165233814" class="medium-zoom-image">
 ```
 
 
@@ -90,7 +90,7 @@ https://cdn.jsdelivr.net/gh/Q10Viking/jsDelivrImagesTests/202206061642731.png
 
 ## 最终方案⭐⭐
 
-1. （必须）在docs/public存放图片。为了区分专题图片，在docs/public/images目录下分别建立专题的文件夹
+1. （必须）在docs/public存放图片。为了区分专题图片，在docs/public../.vuepress/public/images目录下分别建立专题的文件夹
 2. （必须）在typora中编辑文档的时候，设置图片路径为.vuepress\public,当拷问图片到文档后，就拷贝图片到指定的专题文件夹下。markdown图片路径在typora中会自动生成。
 3. （可选）图片加速方案
    1.  在复制到文档中，先使用Squoosh工具将图片进行压缩

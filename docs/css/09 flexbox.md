@@ -17,7 +17,7 @@ The modern way to change the way our elements are displayed
 
 ## Understanding the Flexbox
 
-![202112150857259](/images/css/202112150857259.jpg)
+![202112150857259](../.vuepress/public/images/css/202112150857259.jpg)
 
 ## flex Container
 
@@ -38,7 +38,7 @@ The modern way to change the way our elements are displayed
 
 
 
-![202112150933745](/images/css/202112150933745.png)
+![202112150933745](../.vuepress/public/images/css/202112150933745.png)
 
 ## Align items and Justify content
 
@@ -49,7 +49,7 @@ The modern way to change the way our elements are displayed
 
 :::
 
-![202112150954144](/images/css/202112150954144.jpg)
+![202112150954144](../.vuepress/public/images/css/202112150954144.jpg)
 
 
 

@@ -62,18 +62,18 @@ fs.readFile('/file.md', (err, data) => {
 moreWork(); // will run before console.log
 ```
 
-![显示 Node.js 如何使用事件驱动的体系结构的关系图，其中的事件循环处理业务流程，辅助角色池阻止任务。](/images/webdev/event-loop.svg)
+![显示 Node.js 如何使用事件驱动的体系结构的关系图，其中的事件循环处理业务流程，辅助角色池阻止任务。](../.vuepress/public/images/webdev/event-loop.svg)
 
 
 ## Node.js REPL
 
 Node.js 具有内置的读取–求值–打印循环 (REPL) 模式，**可用于快速代码计算和试验**
 
-![image-20220924121812577](/images/webdev/image-20220924121812577.png)
+![image-20220924121812577](../.vuepress/public/images/webdev/image-20220924121812577.png)
 
 也可以执行脚本
 
-![image-20220924122207686](/images/webdev/image-20220924122207686.png)
+![image-20220924122207686](../.vuepress/public/images/webdev/image-20220924122207686.png)
 
 
 
@@ -230,7 +230,7 @@ npm list --depth=<depth>
 
 `pm outdated` 命令列出了已过时的包。 此命令可帮助识别何时有更新版本的包可用。 以下是命令的典型输出：
 
-![image-20220924221415007](/images/webdev/image-20220924221415007.png)
+![image-20220924221415007](../.vuepress/public/images/webdev/image-20220924221415007.png)
 
 输出中的列包括：
 
@@ -257,11 +257,11 @@ package.json 文件，查看 `dependencies` 部分
 }
 ```
 
-![image-20220924221925846](/images/webdev/image-20220924221925846.png)
+![image-20220924221925846](../.vuepress/public/images/webdev/image-20220924221925846.png)
 
 你可以比较放心地将已过时的包更新到所需版本。 此更新级别可确保依赖项获得该次要版本中的最新功能和修补程序。 运行以下命令以进行更新：(只要 package.json 文件中的模式允许，就已经升级了依赖项。但是不会改变package.json的内容，还是指定的样子)
 
-![image-20220924222204794](/images/webdev/image-20220924222204794.png)
+![image-20220924222204794](../.vuepress/public/images/webdev/image-20220924222204794.png)
 
 通过运行 `npm install <name of package>@<known latest version>` 命令或使用 `latest` 关键字 (`npm install <name of package>@latest`) 来安装最新版本。(会改变package.json的内容)
 
