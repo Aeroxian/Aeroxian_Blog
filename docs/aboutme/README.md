@@ -1,10 +1,3 @@
-<!--
- * @Author: xianjiajie
- * @Date: 2023-03-18 18:28:45
- * @LastEditors: xianjiajie
- * @LastEditTime: 2023-03-18 20:26:05
- * @Description: 
--->
 ---
 sidebarDepth: 3
 sidebar: auto
@@ -36,27 +29,6 @@ typora-root-url: ..\.vuepress\public
 
 ## TODO
 
-- 开源项目Model-Mall
-- Vue3+Vite+TypeScript重写Nacos客户端
-
-
-
-研究[vn7n24fzkq/github-profile-summary-cards: A tool to generate your github summary card for profile README](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-
-![](https://raw.githubusercontent.com/vn7n24fzkq/vn7n24fzkq/master/profile-summary-card-output/solarized/3-stats.svg)
-
-[akramnarejo/frontend-projects: Frontend projects from basic to advance level. (github.com)](https://github.com/akramnarejo/frontend-projects)
-
-[Home - Universalfreecourse | Download Udemy Paid Courses For Free](https://universalfreecourse.com/)
-
-https://getfreecourses.co/ 
-
-[Spring MicroServices In Depth using Domain Driven Design by Sivaprasad Valluru | Download Free Courses (courseupload.net)](https://courseupload.net/spring-microservices-in-depth-using-domain-driven-design-by-sivaprasad-v200321/)
-
-[链滴 - 记录生活，连接点滴 (ld246.com)](https://ld246.com/)
-
-研究开源项目 [ssssssss-team/spider-flow: 新一代爬虫平台，以图形化方式定义爬虫流程，不写代码即可完成爬虫。 (github.com)](https://github.com/ssssssss-team/spider-flow)
-
 
 
 ## JavaScript学习
@@ -73,25 +45,12 @@ https://getfreecourses.co/
 
 
 
-[RaquelLima7/30DaysOfCSS: Challenge to create 30 mini projects using HTML and CSS in 30 days. 🖌 (github.com)](https://github.com/RaquelLima7/30DaysOfCSS#id01) 很不错
-
-
-
-
 
 ## Deeplearning
 
 https://www.deeplearning.ai/
 
 
-
-
-
-## 优化
-
-[TsaiKoga/MyResume: Welcome to My Resume 我的简历 (github.com)](https://github.com/TsaiKoga/MyResume)
-
-[Border Animation CSS | Quick Animation - YouTube](https://www.youtube.com/watch?v=wqb0kaRdyyA)
 
 ## 电子书
 

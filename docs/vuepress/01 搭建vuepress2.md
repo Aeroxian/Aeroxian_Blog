@@ -10,10 +10,12 @@ typora-root-url: ..\.vuepress\public
 ## 环境搭建
 
 1. 在github创建仓库blog 用于存放我们的项目，并克隆到电脑上
-  > 仓库名跟构建好的pages网址保持一致(一般为 #用户名#.github.io)时，可以直接使用该名字直接访问我们的博客网站，不需额外设置项目根路径 :rocket
+
+> 为了使我们的构建pages后的域名看起来更简洁
+> 我们可以将github仓库名改成 #用户名#.github.io、将gitee仓库名改成 用户名> 这样我们的博客网址就简洁如 #用户名#.github.io 而非 #用户#.github.io/xxx
 
 2. 进入blog目录，安装vuepress
-
+   
    ```sh
    # 构建前端的包管理
    yarn init
@@ -39,13 +41,10 @@ typora-root-url: ..\.vuepress\public
    ```
 
 3. 在本地启动服务器来开发你的文档网站
-
+   
    ```sh
    yarn run docs:dev
-
    ```
-
-   
 
 ## 基本配置
 
@@ -75,18 +74,16 @@ typora-root-url: ..\.vuepress\public
   }
 ```
 
-
-
 ## 版本依赖
 
 由于vuepress2还在开发中，我目前使用的版本是
 
 ```json
 "devDependencies": {
-  	"@vuepress/plugin-docsearch": "^2.0.0-beta.60",
-	"@vuepress/plugin-google-analytics": "^2.0.0-beta.60",
-	"@vuepress/plugin-register-components": "^2.0.0-beta.60",
-	"vuepress": "^2.0.0-beta.60"
+      "@vuepress/plugin-docsearch": "^2.0.0-beta.60",
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.60",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.60",
+    "vuepress": "^2.0.0-beta.60"
 }
 ```
 
@@ -109,3 +106,6 @@ typora-root-url: ..\.vuepress\public
 
 [配置 | VuePress (vuejs.org)](https://v2.vuepress.vuejs.org/zh/reference/config.html#站点配置)
 
+
+
+![](../.vuepress/public/images/vuepress/2023-03-21-09-29-54-image.png)

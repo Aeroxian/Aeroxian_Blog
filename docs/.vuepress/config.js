@@ -22,9 +22,9 @@ module.exports = {
       id: 'G-G7CM4H37VB',
     }),
     docsearchPlugin({
-      appId: '20P1NJDB7B',  // Add your own Application ID
-      apiKey: '25cd701e07d0762388df4474cbf8c05d', // Set it to your own *search* API key
-      indexName: 'docs'
+      appId: '9BCHVPCENN',  // Add your own Application ID
+      apiKey: '3a116fedc8383018710e0c2d2ddb17cb', // Set it to your own *search* API key
+      indexName: 'aeroxianio'
     })
   ],
   theme: defaultTheme({
