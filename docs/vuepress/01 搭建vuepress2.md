@@ -13,6 +13,7 @@ typora-root-url: ..\.vuepress\public
 
 > 为了使我们的构建pages后的域名看起来更简洁
 > 我们可以将github仓库名改成 #用户名#.github.io、将gitee仓库名改成 用户名> 这样我们的博客网址就简洁如 #用户名#.github.io 而非 #用户#.github.io/xxx
+> :rocket:由于各种各样的原因，我都推荐让仓库名隐藏掉，这样就不用单独处理与之相关的路径问题
 
 2. 进入blog目录，安装vuepress
    
@@ -105,7 +106,3 @@ typora-root-url: ..\.vuepress\public
 [快速上手 | VuePress (vuejs.org)](https://v2.vuepress.vuejs.org/zh/guide/getting-started.html)
 
 [配置 | VuePress (vuejs.org)](https://v2.vuepress.vuejs.org/zh/reference/config.html#站点配置)
-
-
-
-![](../.vuepress/public../.vuepress/public/images/vuepress/2023-03-21-09-29-54-image.png)

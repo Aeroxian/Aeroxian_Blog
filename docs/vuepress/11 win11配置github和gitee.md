@@ -7,8 +7,6 @@ prev:
 typora-root-url: ..\.vuepress\public
 ---
 
-
-
 ## 取消全局用户配置
 
 查看当前是否使用了全局用户配置
@@ -27,15 +25,13 @@ git config --global --unset user.name "zhuangzhuang-huang"
 git config --global --unset user.email "cau1403090523@gmail.com"
 ```
 
-
-
 ## 生成SSH key
 
 ```sh
 # ssh-keygen 参数说明
--t:		指定要创建的密钥类型。可以使用："rsa1"(SSH-1) "rsa"(SSH-2) "dsa"(SSH-2)
--f:		指定密钥文件名。
--C:		提供一个新注释
+-t:        指定要创建的密钥类型。可以使用："rsa1"(SSH-1) "rsa"(SSH-2) "dsa"(SSH-2)
+-f:        指定密钥文件名。
+-C:        提供一个新注释
 ```
 
 ```sh
@@ -66,6 +62,7 @@ cd C:\Users\11930\.ssh
 # 在C:\Users\11930\.ssh创建文件 
 touch config
 ```
+
 添加以下内容：
 
 ```sh
@@ -81,8 +78,6 @@ HostName github.com
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/id_rsa.github
 ```
-
-
 
 ## SSH key测试
 
@@ -104,18 +99,12 @@ Hi Aeroxian! You've successfully authenticated, but GitHub does not provide shel
 54.231.114.219 github-cloud.s3.amazonaws.com
 ```
 
-
-
 ## 设置用户全局信息
 
 ```sh
 git config --global  user.name "Aeroxian"
 git config --global  user.email "cau1403090523@gmail.com"
 ```
-
-
-
-
 
 ## 参考
 

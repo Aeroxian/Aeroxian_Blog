@@ -6,9 +6,7 @@ prev:
   link: /vuepress/
 ---
 
-
-
-##  emoji 🏷️
+## emoji 🏷️
 
 [🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more (webfx.com)](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
@@ -26,15 +24,11 @@ prev:
 
 ♨️📗📘📙📚
 
-
-
 ## 自定义容器🍷
 
 [Markdown | VuePress (vuejs.org)](https://v2.vuepress.vuejs.org/zh/reference/default-theme/markdown.html#自定义容器)
 
 ### 提示内容
-
-
 
 ```md
 ::: tip
@@ -53,8 +47,6 @@ prev:
 这是一个 details 标签
 :::
 ```
-
-
 
 ::: tip
 这是一个提示
@@ -76,49 +68,42 @@ prev:
 
 ### 代码分组 :smiling_imp:
 
-
-
-~~~md
+```md
 :::: code-group
 ::: code-group-item FOO
 ```js
 const foo = 'foo'
 ```
+
 :::
 ::: code-group-item BAR
+
 ```js
 const bar = 'bar'
 ```
+
 :::
 ::::
-~~~
 
-
-
-
-
+```
 :::: code-group
 ::: code-group-item Java
 
 ```js
 System.out.printlh("Hello World")
 ```
+
 :::
 ::: code-group-item Python
 
 ```js
 print("Hello World")
 ```
+
 :::
 ::::
 
-
-
-
-
 ---------
-
-
 
 ## LaTex公式
 

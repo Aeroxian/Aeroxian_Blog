@@ -7,15 +7,11 @@ prev:
 typora-root-url: ..\.vuepress\public
 ---
 
-
-
 ::: tip
 
 [Aeroxian on Process](https://www.processon.com)
 
 :::
-
-
 
 ## 使用
 
@@ -44,11 +40,9 @@ typora-root-url: ..\.vuepress\public
 
 :::
 
-
-
 ::: details 点击查看代码
 
-```vue {2-8}
+```vue
 <template>
   <iframe
     id="embed_dom"

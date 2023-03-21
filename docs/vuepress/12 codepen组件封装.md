@@ -7,8 +7,6 @@ prev:
 typora-root-url: ..\.vuepress\public
 ---
 
-
-
 ## 封装组件
 
 ::: tip
@@ -24,7 +22,6 @@ typora-root-url: ..\.vuepress\public
 ::: details 点击查看代码
 
 ```vue
-
 <template>
   <p
     class="codepen"
@@ -153,4 +150,3 @@ export default {
 ```
 
 <common-codepen-snippet title="TodoList" slug="ZEJgdzb" />
-

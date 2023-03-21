@@ -35,7 +35,7 @@ docsearchPlugin({
 
 此时需要到[官方爬虫后台](https://crawler.algolia.com/admin)检查对应爬虫代码
 
-<img src="../.vuepress/public../.vuepress/public/images/vuepress/2023-03-21-15-18-42-image.png" title="" alt="" width="163">
+<img src="../.vuepress/public/images/vuepress/2023-03-21-15-18-42-image.png" title="" alt="" width="163">
 
 ```js
 //特别注意以下几个属性 查看路径是否匹配实际访问路径
@@ -56,11 +56,11 @@ pathsToMatch: ["https://aeroxian.github.io/**"],
 
 以下是vuepress官方路由匹配方式
 
-![](../.vuepress/public../.vuepress/public/images/vuepress/2023-03-21-15-06-00-image.png)
+![](../.vuepress/public/images/vuepress/2023-03-21-15-06-00-image.png)
 
 把路由路径匹配上即可
 
-![](../.vuepress/public../.vuepress/public/images/vuepress/2023-03-21-15-30-45-image.png)
+![](../.vuepress/public/images/vuepress/2023-03-21-15-30-45-image.png)
 
 ## 参考
 
