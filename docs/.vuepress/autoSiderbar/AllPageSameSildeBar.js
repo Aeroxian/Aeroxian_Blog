@@ -42,7 +42,7 @@ function toSidebarOption(tree = []) {
     } else {
       return {
         text: path.basename(v.path).replace(/\.md$/, ""),
-        link: v.path.split("docs")[1]
+        link: v.path.split("docs")[1].replace(/\.md$/,'\.html')
       }
     }
   });
