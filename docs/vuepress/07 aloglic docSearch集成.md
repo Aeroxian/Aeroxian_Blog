@@ -22,7 +22,7 @@ docsearchPlugin({
   indexName: 'XX'
 })
 // 这些配置项都会在注册申请使用algolia docSearch 通过官方邮件获取到
-// 不过因为algolia docSearch是外国网站，科学上网得自己想办法
+// 不过因为algolia docSearch是外国网站，得自己想办法
 ```
 
 :::
