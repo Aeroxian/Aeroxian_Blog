@@ -4,34 +4,35 @@
 import autoGetSidebarOptionBySrcDir from './AllPageSameSildeBar'
 import titles from './textTitle'
 
-function autoGenSidebar(){
-    // 专题导航
-    let topicNav = [];
-    let result = {'/topicNav/': []};
-    const contents = autoGetSidebarOptionBySrcDir();
-    contents.forEach(element => {
-   
-        if(!(element.link in result)){
-            result[element.link] = []
-            // 添加进去导航
-            topicNav.push({
-                text: element.text,
-                link: element.link
-            });
-        }
-   
-        result[element.link].push({
-            text: element.text,
-            children: element.children
-        })
-    });
-    
-    result['/topicNav/'].push({
-        text: titles['topicNav'],
-        children: topicNav
-    })
+function autoGenSidebar() {
+  // 专题导航
+  let topicNav = [];
+  let result = { '/topicNav/': [] };
+  const contents = autoGetSidebarOptionBySrcDir();
+  contents.forEach(element => {
+    console.log(element);
+    if (!(element.link in result)) {
+      result[element.link] = []
+      // 添加进去导航
+      topicNav.push({
+        text: element.text,
+        link: element.link
+      });
+    }
 
-    return result;
+    result[element.link].push({
+      text: element.text,
+      children: element.children,
+      link: element.link
+    })
+  });
+
+  result['/topicNav/'].push({
+    text: titles['topicNav'],
+    children: topicNav
+  })
+
+  return result;
 }
 
 // 测试
@@ -59,5 +60,5 @@ function autoGenSidebar(){
     ]
 }
 */
- 
- module.exports = autoGenSidebar;
+
+module.exports = autoGenSidebar;

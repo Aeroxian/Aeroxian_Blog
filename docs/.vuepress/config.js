@@ -12,6 +12,7 @@ const sidebar = autoGenSidebar();
 module.exports = {
   lang: 'zh-CN',
   title: '吖冼的Blog',
+  port: '2323',
   description: 'Aeroxian的Vuepress Blog',
   head: [['link', { rel: 'icon', href: '/images/favicon-32x32.png' }]], // icon设置
   plugins: [

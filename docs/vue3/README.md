@@ -5,103 +5,27 @@ prev:
 typora-root-url: ..\.vuepress\public
 ---
 
+#
 
+## 从 Vue2 到 Vue3
 
-::: tip 提示
-学习 vue3之旅  [介绍 | Vue.js (vuejs.org)](https://v3.cn.vuejs.org/guide/introduction.html)
+我一直以来都在工作中使用 vue-2.6.10 这个稳定版本，使用他的选项式 API 的时，，那时候的 vue3 对组合式 API 也没有十分完善，在使用上没有特别大的区别，但这个情况在 vue3.2 版本-setup 的到来，发生了极大的改变
 
-使用vuepress博客仿照vue的官网，进行交互式学习 
+在使用选项式 api 的时候，有时候会丢失对某个数据的响应式变化，每次一通好找，不好解决，reactive() 可能会解决这个问题
+一个 vue 页面会存在多个同时处理的业务逻辑，比如 vue2 中业务 A、业务 B 得分别在 data/methods/watch 定义各自的数据与方法，当要找某个业务的逻辑就得上下滚来翻找
 
-:::
+## Vue2 Vue3 生态改变
 
+:::tip 引用官方
 
+Vue 3 的支持库进行了重大更新。以下是新的默认建议的摘要:
 
-![202112020913845](../.vuepress/public/images/vue3/202112020913845.jpg)
-
-
-<div id="root">
-    {{msg}}
-    <button @click="greet">Geet！</button>
-</div>
-
-
-::: details 点击查看代码
-
-```js
-<div id="root">
-    {{msg}}
-    <button @click="greet">Geet！</button>
-</div>
-
-<script>
-
-export default {
-    setup(){
-        const msg = 'Hello Vue'
-        return {
-            msg
-        }
-    },
-    methods: {
-        greet(e){
-            alert('😁'+this.msg)
-        }
-    }
-}
-</script>
-```
+- 新版本的 Router, Devtools & test utils 来支持 Vue 3
+- 构建工具链: Vue CLI -> [Vite](https://cn.vitejs.dev/)
+- 状态管理: Vuex -> [Pinia](https://pinia.vuejs.org/zh/index.html)
+- IDE 支持: Vetur -> [Volar](https://marketplace.visualstudio.com/items?itemName=vue.volar)
+- 新的 TypeScript 命令行工具: [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages)
+- 静态网站生成: VuePress -> [VitePress](https://vitepress.dev/)
+- JSX: @vue/babel-preset-jsx -> [@vue/babel-plugin-jsx](https://github.com/vuejs/babel-plugin-jsx)
 
 :::
-
-
-
-
-
-
-
-<script>
-
-export default {
-    setup(){
-        const msg = 'Hello Vue'
-        return {
-            msg
-        }
-    },
-    methods: {
-        greet(e){
-            alert('😁'+this.msg)
-        }
-    }
-}
-</script>
-
-
-
-## Vue2 to Vue3
-
-![image-20220919174635377](../.vuepress/public/images/typescript/image-20220919174635377.png)
-
-
-
-## VUE生态
-
-[Home | VueUse](https://vueuse.org/)
-
-## 学习项目
-
-[VueCook (liuwenxing1996.github.io)](https://liuwenxing1996.github.io/vue-cook/)
-
-## TODO
-
-[newbee-ltd/newbee-mall-vue-app: 🔥 🎉Vue2 全家桶 + Vant 搭建大型单页面商城项目。新蜂商城前后端分离版本-前端Vue项目源码 (github.com)](https://github.com/newbee-ltd/newbee-mall-vue-app)
-
-
-
-https://github.com/anncwb/vue-vben-admin
-
-https://github.com/chuzhixin/vue-admin-beautiful-pro
-
-https://github.com/xiaoxian521/vue-pure-admin
-
-https://github.com/hiparker/opsli-boot
