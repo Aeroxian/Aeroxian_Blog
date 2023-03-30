@@ -46,6 +46,7 @@ npm run docs:build
     - [x] Github导航
   - [x] 具体页面底部导航
   - [ ] 目录首页卡片展示
+  - [ ] 个人书签整理/资源网站导航
 - [x] 自动构建侧边栏
 - [x] 支持自定义组件开发
 - [x] github actions 自动部署
