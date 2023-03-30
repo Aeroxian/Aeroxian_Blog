@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-95003678","path":"/vue3_ts_vite/","title":"","lang":"zh-CN","frontmatter":{"prev":{"text":"Back To 目录","link":"/topicNav/"}},"headers":[{"level":2,"title":"生态","slug":"生态","link":"#生态","children":[]},{"level":2,"title":"运行环境","slug":"运行环境","link":"#运行环境","children":[]}],"git":{},"filePathRelative":"vue3_ts_vite/README.md"}');export{e as data};

@@ -1,0 +1,1 @@
+import{_ as e,p as _,q as n,R as l}from"./framework-f3fd2962.js";const t={},o=l("ol",null,[l("li",null,"跟随项目进行，有一次完整的项目架构经验。"),l("li",null,"部署前端，重点在后端的工作"),l("li",null,"后端开发中遇到的问题，先记录，查漏补缺。"),l("li",null,"加油，专注点，自信点。未来的由当下的指尖决定。")],-1),c=[o];function s(r,a){return _(),n("div",null,c)}const u=e(t,[["render",s],["__file","阶段目标.html.vue"]]);export{u as default};

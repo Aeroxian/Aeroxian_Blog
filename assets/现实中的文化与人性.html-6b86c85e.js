@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-4c95ccef","path":"/aboutme/%E7%8E%B0%E5%AE%9E%E4%B8%AD%E7%9A%84%E6%96%87%E5%8C%96%E4%B8%8E%E4%BA%BA%E6%80%A7.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"aboutme/现实中的文化与人性.md"}');export{t as data};

@@ -1,0 +1,1 @@
+import{_ as n,r as a,p as o,q as _,t as r,v as c,R as l,O as u}from"./framework-f3fd2962.js";const p={__name:"Test",setup(i){const t="Markdown 中的 Vue",s=a(0);return(m,e)=>(o(),_(u,null,[r(" _你好， "+c(t)+"_ "),l("button",{onClick:e[0]||(e[0]=f=>s.value++)},"点我！")],64))}},d=n(p,[["__file","Test.vue"]]);export{d as default};

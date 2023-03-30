@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-606c31d3","path":"/css/14%20%E5%91%BD%E5%90%8D.html","title":"","lang":"zh-CN","frontmatter":{"sidebarDepth":3,"sidebar":"auto","prev":{"text":"Back To 目录","link":"/css/"},"typora-root-url":"..\\\\.vuepress\\\\public"},"headers":[],"git":{},"filePathRelative":"css/14 命名.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-202217fc","path":"/win11/%E9%98%B6%E6%AE%B5%E7%9B%AE%E6%A0%87.html","title":"","lang":"zh-CN","frontmatter":{"sidebarDepth":3,"sidebar":"auto","prev":{"text":"Back To 目录","link":"/win11/"},"typora-root-url":"..\\\\.vuepress\\\\public"},"headers":[],"git":{},"filePathRelative":"win11/阶段目标.md"}');export{t as data};

@@ -1,0 +1,11 @@
+import{_ as t,M as i,p as o,q as d,R as e,t as n,N as a,a1 as r}from"./framework-f3fd2962.js";const c="/assets/image-20230304003204235-7820c9ce.png",l={},m=r(`<p>在命令行打开当前文件夹</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code> explorer.exe <span class="token string">&quot;.&quot;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="常用命令" tabindex="-1"><a class="header-anchor" href="#常用命令" aria-hidden="true">#</a> 常用命令</h2>`,3),p={href:"https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands",target:"_blank",rel:"noopener noreferrer"},u=e("h2",{id:"tree",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#tree","aria-hidden":"true"},"#"),n(" tree")],-1),h={href:"https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tree",target:"_blank",rel:"noopener noreferrer"},_=r(`<div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 展示路径和文件</span>
+PS D:<span class="token punctuation">\\</span>learncode<span class="token punctuation">\\</span>mongodb<span class="token punctuation">\\</span>M00<span class="token operator"><span class="token file-descriptor important">1</span>&gt;</span> tree /f
+卷 DATA 的文件夹 <span class="token environment constant">PATH</span> 列表
+卷序列号为 0641-76D2
+D:.
+└─dump
+    └─sample_supplies
+            sales.bson
+            sales.metadata.json
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="快速打开当前目录的命令行" tabindex="-1"><a class="header-anchor" href="#快速打开当前目录的命令行" aria-hidden="true">#</a> 快速打开当前目录的命令行</h2><p><img src="`+c+'" alt="image-20230304003204235"></p>',3);function v(b,f){const s=i("ExternalLinkIcon");return o(),d("div",null,[m,e("p",null,[e("a",p,[n("Windows commands | Microsoft Learn"),a(s)])]),u,e("p",null,[e("a",h,[n("tree | Microsoft Learn"),a(s)])]),_])}const k=t(l,[["render",v],["__file","04-命令行操作.html.vue"]]);export{k as default};

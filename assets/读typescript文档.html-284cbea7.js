@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-33d3c3f2","path":"/typescript/%E8%AF%BBtypescript%E6%96%87%E6%A1%A3.html","title":"读 typescript 文档","lang":"zh-CN","frontmatter":{"sidebarDepth":3,"sidebar":"auto","prev":{"text":"Back To 目录","link":"/typescript/"}},"headers":[],"git":{},"filePathRelative":"typescript/读typescript文档.md"}');export{t as data};

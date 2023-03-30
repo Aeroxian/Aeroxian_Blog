@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-51986fe2","path":"/typescript/18%20type%20check.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"typescript/18 type check.md"}');export{t as data};

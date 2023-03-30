@@ -1,0 +1,1 @@
+import{_ as l,p as t,q as _,R as e}from"./framework-f3fd2962.js";const n={},c=e("ul",null,[e("li",null,"好的猎人往往以猎物的形式出现"),e("li",null,"你之所以背后会中一箭，是因为你走在前面。你之所有背后会中一箭，是因为你还走得不够远")],-1),o=[c];function s(r,a){return t(),_("div",null,o)}const u=l(n,[["render",s],["__file","心想.html.vue"]]);export{u as default};

@@ -1,0 +1,1 @@
+import{_ as s,p as o,q as r,v as n}from"./framework-f3fd2962.js";const c={setup(){return{msg:"Vuepress Using Vue Component"}},methods:{greet(e){alert("😁"+this.msg)}}},a={id:"root"};function _(e,i,p,t,m,d){return o(),r("div",a,n(t.msg),1)}const f=s(c,[["render",_],["__file","test.vue"]]);export{f as default};

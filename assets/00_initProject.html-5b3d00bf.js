@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-70d277ab","path":"/vue3_ts_vite/00_initProject.html","title":"初始化项目","lang":"zh-CN","frontmatter":{"prev":{"text":"Back To 目录","link":"/vue3_ts_vite/"}},"headers":[],"git":{},"filePathRelative":"vue3_ts_vite/00_initProject.md"}');export{t as data};

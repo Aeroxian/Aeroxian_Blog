@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-caafae28","path":"/win11/","title":"","lang":"zh-CN","frontmatter":{"prev":{"text":"Back To 目录","link":"/topicNav/"},"typora-root-url":"..\\\\.vuepress\\\\public"},"headers":[{"level":2,"title":"网站","slug":"网站","link":"#网站","children":[]}],"git":{},"filePathRelative":"win11/README.md"}');export{e as data};

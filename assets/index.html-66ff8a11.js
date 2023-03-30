@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-e02a086e","path":"/javascript/","title":"","lang":"zh-CN","frontmatter":{"prev":{"text":"Back To 目录","link":"/topicNav/"},"typora-root-url":"..\\\\.vuepress\\\\public"},"headers":[],"git":{},"filePathRelative":"javascript/README.md"}');export{t as data};

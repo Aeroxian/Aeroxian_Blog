@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-bfa7fd74","path":"/vue3/21%20start-project.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"参考项目","slug":"参考项目","link":"#参考项目","children":[]}],"git":{},"filePathRelative":"vue3/21 start-project.md"}');export{t as data};
