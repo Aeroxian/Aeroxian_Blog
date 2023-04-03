@@ -9,6 +9,7 @@
 
 const titles = {
   vuepress: "Vuepress博客搭建",
+  myPercious: "🦄MyPercious",
   topicNav: "📗Menu",
   vue3: "Vue3 学习",
   css: "CSS3",
@@ -19,7 +20,9 @@ const titles = {
   dubbo: "Dubbo",
   win11: "Win11",
   webdev: "Webdev",
-  vue3_ts_vite : '构建vue3/ts/vite项目'
+  vue3_ts_vite : '构建vue3/ts/vite项目',
+  webdebug: "Web Debug",
+  git: "Git"
 };
 
 module.exports = titles;

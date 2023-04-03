@@ -8,6 +8,9 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { defaultTheme } from '@vuepress/theme-default'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { docsearchPlugin  } from '@vuepress/plugin-docsearch'
+import { getChromeBookMark } from './bookMark'
+const isShowOwnBookMark = true
+isShowOwnBookMark && getChromeBookMark()
 const sidebar = autoGenSidebar();
 module.exports = {
   lang: 'zh-CN',
