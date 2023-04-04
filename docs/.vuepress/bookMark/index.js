@@ -53,7 +53,7 @@ function writeIntoTxt(data){
 function ignoreBookMark(bookMark){
   // 忽略没有children的一级书签 此为常用书签
   // 忽略特定文件夹
-  const ignoreFolder = ['SIE']
+  const ignoreFolder = ['SIE','POE','机场']
   return bookMark.filter(item=>{
     return (
       item.children

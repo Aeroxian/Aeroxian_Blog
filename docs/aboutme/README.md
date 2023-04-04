@@ -4,12 +4,13 @@ sidebar: auto
 prev:
   text: Back To 首页
   link: /
-typora-root-url: ..\.vuepress\public
 ---
 
 
 
 
-#
+# 小想法
 
-## 暂时为空
+基于目前稳定版本的前沿框架实现
+- [ ]创建Vue 与 React 个人组件库、收录各种实现方案
+- [ ]实现各种炫酷效果

@@ -14,21 +14,23 @@
   },
   "homepage": "https://github.com/Aeroxian/Aeroxian.github.io#readme",
   "dependencies": {
-    "directory-tree": "^3.0.1"
+    "babel-plugin-import": "^1.13.6",
+    "directory-tree": "^3.0.1",
+    "view-ui-plus": "^1.3.10"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.60",
-    "@vuepress/cli": "2.0.0-beta.60",
-    "@vuepress/core": "2.0.0-beta.60",
-    "@vuepress/theme-default": "2.0.0-beta.60",
     "@vuepress/bundler-vite": "2.0.0-beta.60",
-    "vuepress": "2.0.0-beta.60",
-    "vuepress-vite":"2.0.0-beta.60",
+    "@vuepress/cli": "2.0.0-beta.60",
+    "@vuepress/client": "2.0.0-beta.60",
+    "@vuepress/core": "2.0.0-beta.60",
     "@vuepress/markdown": "2.0.0-beta.60",
-    "@vuepress/shared": "2.0.0-beta.60",
-    "@vuepress/utils": "2.0.0-beta.60",
     "@vuepress/plugin-docsearch": "2.0.0-beta.60",
     "@vuepress/plugin-google-analytics": "2.0.0-beta.60",
-    "@vuepress/plugin-register-components": "2.0.0-beta.60"
+    "@vuepress/plugin-register-components": "2.0.0-beta.60",
+    "@vuepress/shared": "2.0.0-beta.60",
+    "@vuepress/theme-default": "2.0.0-beta.60",
+    "@vuepress/utils": "2.0.0-beta.60",
+    "vuepress": "2.0.0-beta.60",
+    "vuepress-vite": "2.0.0-beta.60"
   }
 }
